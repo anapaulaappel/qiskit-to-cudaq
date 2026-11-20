@@ -1,0 +1,30 @@
+{
+ "apaga_porta": {
+  "n": 150,
+  "fid_pega": 119,
+  "contagem_pega": 93,
+  "so_fid": 26,
+  "nao_pego": 31
+ },
+ "inverte_angulo": {
+  "n": 150,
+  "fid_pega": 129,
+  "contagem_pega": 59,
+  "so_fid": 70,
+  "nao_pego": 21
+ },
+ "troca_controle": {
+  "n": 150,
+  "fid_pega": 124,
+  "contagem_pega": 123,
+  "so_fid": 1,
+  "nao_pego": 26
+ },
+ "fase_final": {
+  "n": 150,
+  "fid_pega": 128,
+  "contagem_pega": 0,
+  "so_fid": 128,
+  "nao_pego": 22
+ }
+}

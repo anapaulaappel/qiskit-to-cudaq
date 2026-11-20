@@ -1,0 +1,19 @@
+{
+ "prompt_inicial": "You translate Qiskit circuits into equivalent NVIDIA CUDA-Q kernels. Answer with a single Python code block.",
+ "melhor": "You translate Qiskit circuits into equivalent NVIDIA CUDA-Q kernels. Answer with a single Python code block.",
+ "args": {
+  "n_treino": 60,
+  "n_val": 50,
+  "max_metric_calls": 300,
+  "task_url": "http://vllm-nemotron.quantum-finetune.svc:8000",
+  "task_model": "nemotron",
+  "reflection_url": "https://gemma-4-31b-it-kserve-workload-svc.ai-project.svc.cluster.local:8000/v1",
+  "reflection_model": "gemma-4-31b-it",
+  "modo": "graduado",
+  "reflection_api_key": "none",
+  "ensaio": false
+ },
+ "val_scores": [
+  0.0
+ ]
+}

@@ -1,0 +1,9276 @@
+{
+ "limiar_fidelidade": 0.999,
+ "geral": {
+  "n": 640,
+  "falhas_ambiente": 0,
+  "saida_valida": 0.8390625,
+  "saida_valida_ic95": [
+   0.8085821928473347,
+   0.8654966489050469
+  ],
+  "pass_1": 0.4828125,
+  "pass_1_ic95": [
+   0.4443155816630637,
+   0.5215145231328987
+  ],
+  "fidelidade_media_das_validas": 0.6310142142926903,
+  "status": {
+   "ok": 537,
+   "erro_compilacao": 90,
+   "erro_sintaxe": 12,
+   "erro_execucao": 1
+  }
+ },
+ "por_grupo": {
+  "teste_estilo": {
+   "n": 200,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.705,
+   "saida_valida_ic95": [
+    0.6384115802925058,
+    0.7638615572809827
+   ],
+   "pass_1": 0.38,
+   "pass_1_ic95": [
+    0.3155889366123922,
+    0.4489341048080049
+   ],
+   "fidelidade_media_das_validas": 0.5894713636742454,
+   "status": {
+    "ok": 141,
+    "erro_compilacao": 53,
+    "erro_sintaxe": 6
+   }
+  },
+  "teste_estilo/aleatorio": {
+   "n": 47,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.7659574468085106,
+   "saida_valida_ic95": [
+    0.6277546774315923,
+    0.8639686357607541
+   ],
+   "pass_1": 0.5106382978723404,
+   "pass_1_ic95": [
+    0.37242217589372884,
+    0.6472467566339649
+   ],
+   "fidelidade_media_das_validas": 0.7026072612419353,
+   "status": {
+    "ok": 36,
+    "erro_compilacao": 11
+   }
+  },
+  "teste_estilo/ghz": {
+   "n": 14,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.7846829880728186,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.7846829880728186,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999994,
+   "status": {
+    "ok": 14
+   }
+  },
+  "teste_estilo/grover": {
+   "n": 12,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.9166666666666666,
+   "saida_valida_ic95": [
+    0.6461140782014047,
+    0.9851352905492264
+   ],
+   "pass_1": 0.16666666666666666,
+   "pass_1_ic95": [
+    0.04696414761482223,
+    0.44803635738467273
+   ],
+   "fidelidade_media_das_validas": 0.45905470812623544,
+   "status": {
+    "ok": 11,
+    "erro_sintaxe": 1
+   }
+  },
+  "teste_estilo/hea": {
+   "n": 100,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.55,
+   "saida_valida_ic95": [
+    0.45244427031643447,
+    0.6438562489359654
+   ],
+   "pass_1": 0.22,
+   "pass_1_ic95": [
+    0.15001174503655804,
+    0.3107053471500031
+   ],
+   "fidelidade_media_das_validas": 0.42615755497535884,
+   "status": {
+    "ok": 55,
+    "erro_compilacao": 40,
+    "erro_sintaxe": 5
+   }
+  },
+  "teste_estilo/qft": {
+   "n": 15,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.9333333333333333,
+   "saida_valida_ic95": [
+    0.7018292244757601,
+    0.9881334113938051
+   ],
+   "pass_1": 0.9333333333333333,
+   "pass_1_ic95": [
+    0.7018292244757601,
+    0.9881334113938051
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999979,
+   "status": {
+    "ok": 14,
+    "erro_compilacao": 1
+   }
+  },
+  "teste_estilo/w": {
+   "n": 12,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.9166666666666666,
+   "saida_valida_ic95": [
+    0.6461140782014047,
+    0.9851352905492264
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.2425007574992425
+   ],
+   "fidelidade_media_das_validas": 0.12121214184778495,
+   "status": {
+    "ok": 11,
+    "erro_compilacao": 1
+   }
+  },
+  "teste_estrutura": {
+   "n": 200,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.985,
+   "saida_valida_ic95": [
+    0.9568335194437211,
+    0.9948858548155076
+   ],
+   "pass_1": 0.35,
+   "pass_1_ic95": [
+    0.28728715939415395,
+    0.41836664238134236
+   ],
+   "fidelidade_media_das_validas": 0.4150771254854005,
+   "status": {
+    "ok": 197,
+    "erro_compilacao": 2,
+    "erro_sintaxe": 1
+   }
+  },
+  "teste_estrutura/hea": {
+   "n": 200,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.985,
+   "saida_valida_ic95": [
+    0.9568335194437211,
+    0.9948858548155076
+   ],
+   "pass_1": 0.35,
+   "pass_1_ic95": [
+    0.28728715939415395,
+    0.41836664238134236
+   ],
+   "fidelidade_media_das_validas": 0.4150771254854005,
+   "status": {
+    "ok": 197,
+    "erro_compilacao": 2,
+    "erro_sintaxe": 1
+   }
+  },
+  "teste_tamanho": {
+   "n": 240,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.8291666666666667,
+   "saida_valida_ic95": [
+    0.7764570764446659,
+    0.8715045511037098
+   ],
+   "pass_1": 0.6791666666666667,
+   "pass_1_ic95": [
+    0.6176851438707345,
+    0.735002830617622
+   ],
+   "fidelidade_media_das_validas": 0.8742159652084533,
+   "status": {
+    "ok": 199,
+    "erro_compilacao": 35,
+    "erro_sintaxe": 5,
+    "erro_execucao": 1
+   }
+  },
+  "teste_tamanho/aleatorio": {
+   "n": 120,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.9583333333333334,
+   "saida_valida_ic95": [
+    0.9061578707045692,
+    0.9820735474941622
+   ],
+   "pass_1": 0.8,
+   "pass_1_ic95": [
+    0.7196316465662729,
+    0.8617561908001696
+   ],
+   "fidelidade_media_das_validas": 0.8870739265582879,
+   "status": {
+    "ok": 115,
+    "erro_compilacao": 5
+   }
+  },
+  "teste_tamanho/ghz": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999996,
+   "status": {
+    "ok": 30
+   }
+  },
+  "teste_tamanho/grover": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.8,
+   "saida_valida_ic95": [
+    0.6269395261897256,
+    0.9049502189759876
+   ],
+   "pass_1": 0.23333333333333334,
+   "pass_1_ic95": [
+    0.11792239210501232,
+    0.40928672330324267
+   ],
+   "fidelidade_media_das_validas": 0.4981448134282998,
+   "status": {
+    "ok": 24,
+    "erro_sintaxe": 5,
+    "erro_execucao": 1
+   }
+  },
+  "teste_tamanho/qft": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999979,
+   "status": {
+    "ok": 30
+   }
+  },
+  "teste_tamanho/w": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.113517091390478
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.113517091390478
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 30
+   }
+  }
+ },
+ "por_tarefa": [
+  {
+   "id": "3a1d9ce3e17d3636",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "e4f6fc1c2b8acaac",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "4bf5b305fdbd1745",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.7731337915095591
+    }
+   ]
+  },
+  {
+   "id": "978c61d2617d23c0",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "ff96e69ffc15f518",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "5913beb1022ec50f",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "88e579aab3eb827a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.3372111510256575
+    }
+   ]
+  },
+  {
+   "id": "b67ef113cdb84eba",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "74931922c76883c6",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999984
+    }
+   ]
+  },
+  {
+   "id": "27a6e6dda96e859e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "deda5ded28beecc6",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999969
+    }
+   ]
+  },
+  {
+   "id": "712e98bafd761300",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "7d4d3ea606420cc1",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.23368556391564074
+    }
+   ]
+  },
+  {
+   "id": "6e7024f4192ccb3c",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "f49ba2af55b51c76",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "47197b090938fcf8",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "42782674d36cc861",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "2cc58a78fd4c5466",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.24999999999999922
+    }
+   ]
+  },
+  {
+   "id": "7ac4c7db745f4b1a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "7323adf5e8b51c6e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "c75871f1c1b7354d",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "5a42ae7bbf162ecb",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "4518bff7995cf41e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999984
+    }
+   ]
+  },
+  {
+   "id": "1ab136ce4cc8c135",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "fa418a933e19911d",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999984
+    }
+   ]
+  },
+  {
+   "id": "d9440c28b2661132",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "5a38033a4c487a5a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "fa37254b96cca020",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07956396744917271
+    }
+   ]
+  },
+  {
+   "id": "4282b30e54296001",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "df3ba986eb6d6ec3",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "d0a3d20b8dabf4e2",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "b3c89aeed141a2fa",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "dea6fa5512f14e9a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "94a7e8affec264dd",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "5718a5e91aa1c34e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "d25191560e6e62db",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "ff58e8a2b7baee02",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "6df3ad474c5b5cb9",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "7d10857dfea4a837",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "7f9b2f6c232d0e9f",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "f6513d1abf112dc3",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "7b3c82baa4a6f411",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "aaae38680b8cf56d",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "9a87040866a54f64",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "dfc018f7711318ef",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "acb965eb726279c8",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "beed7280dce5a870",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "57bdf72acd35846b",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "c040f806446de9f0",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "e32cd23655a7efe3",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "a2cf945d52962445",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "49ed27122956f8aa",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "8bf7c217d5ff2b41",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.4214746039542169
+    }
+   ]
+  },
+  {
+   "id": "56e12076bb2ad9d7",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999989
+    }
+   ]
+  },
+  {
+   "id": "a69ecc870674ac7a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "33bab2e29889b524",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "ebed51a61ce67970",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "83ce7594375d729d",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "e008331e388df4e5",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "e7ed01972ecfb197",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "c312caf37c9e3853",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "2b6c5c72082ba001",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.4657749463485999
+    }
+   ]
+  },
+  {
+   "id": "30f92699e6a3ed7e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "acf51f9261ac0270",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "3f2f51e1f0d41bfd",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999989
+    }
+   ]
+  },
+  {
+   "id": "6e2c0af803916fef",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "9204348505867272",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "80b0fd47e766c4c0",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "5522183a8575427c",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "5b0549f136119c7e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "d33e048ab6a1a816",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "861c5e2b63b57972",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "708d275205aa36ca",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "fb5cff5430172b09",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "1a1789835d445cd7",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "0ed2c32399883862",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "c98aedacb260fecc",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "0153700d8020f7a1",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "fd6f03addf4231c0",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "ed1e21b420bd2f37",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999984
+    }
+   ]
+  },
+  {
+   "id": "bf58e40fedb77cf4",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "fd4085e965defeb9",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "c0679204f88a82c8",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07425935218989854
+    }
+   ]
+  },
+  {
+   "id": "ff380f7e78407112",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.9522906075291736
+    }
+   ]
+  },
+  {
+   "id": "3e9a8fb01030ca26",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "4ac953273a7299fa",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "3a5f87b5e97a643c",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "bc619df1328f2ef9",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.7389648648323941
+    }
+   ]
+  },
+  {
+   "id": "de0194a51a7d5adc",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "dae7ca79f945fe68",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "9c6a8655ff610f7e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07208597891368074
+    }
+   ]
+  },
+  {
+   "id": "207124f80af5e624",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "a1ebdbe235e17cab",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "fc9d1ae6ff60137f",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "81f3acd3b46d2785",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "056ba1ddc1d42825",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.1340094718520353
+    }
+   ]
+  },
+  {
+   "id": "694c8e961080024a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.11581074990831497
+    }
+   ]
+  },
+  {
+   "id": "9eb58387edd5f331",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "a1b56575404cb38f",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999984
+    }
+   ]
+  },
+  {
+   "id": "a853e95bf8e06e15",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "25e3a5a036f5db58",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0
+    }
+   ]
+  },
+  {
+   "id": "1dc3fb36c0f8228b",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "a55321e24402bed7",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "b7ad541e7dbd77e4",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "826d74aa95d55fc7",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "15ead949e4dbb1ec",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "27f5143aa8d5d0ad",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999989
+    }
+   ]
+  },
+  {
+   "id": "e10b07b3c256293b",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "53df527264e65b80",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0
+    }
+   ]
+  },
+  {
+   "id": "71847c637a45d448",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "0d97e404dbcffcb3",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "bf3d7355f123d28a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.9962470143871461
+    }
+   ]
+  },
+  {
+   "id": "5cf69a106b75a02e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "5c03e3dd323879f5",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 6.67670289047298e-34
+    }
+   ]
+  },
+  {
+   "id": "6d10f93d5a0d00e1",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.3683681579155334
+    }
+   ]
+  },
+  {
+   "id": "c8050bbf528eca76",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "f378040e86049ce2",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "7732d6ebda7e4f74",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "52394dbf67debfaf",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0006213324721541112
+    }
+   ]
+  },
+  {
+   "id": "06a83e8ec4d5b54a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "2752ebdc86f648c6",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "75ced7854cf264a0",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "150719ef582ada82",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "504c15d170dd90ac",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "4a1c0ae76fe44ba9",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "0d51ded8ed28d4ba",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "1974b54d6b2f18e7",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "4a857619dd401324",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "767600a886a04220",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "53ee5a498e463de1",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "2e6846e5ada25a23",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "7056e90e6cf883f6",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "513de738ec1cd876",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "c8171336f638f9f1",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "29d73df02d87bee5",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "bb3a544a11766efe",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "c3fd4a6f2dd249d2",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "fa4fd8596ce3b038",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "95b1904d12514476",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "6b619688ed5ea11f",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "edceb585d3e20227",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "1f5dd6583672697d",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "1a6bf200f9b53b5e",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "f3a631eef4838cfc",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "db5442c3355cc24e",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "33e675cdab8634e1",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "86e7f0b02c03d457",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "e3b3d7748e14300b",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "952f2029b0877333",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "d67fd160fdb54520",
+   "divisao": "teste_tamanho",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "7f30c95309e0a8e6",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "3fa04238cd9016bc",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "0d25837f2d066b8b",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "13730b328c3ae17d",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "fc6324d10531d305",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "b9b23a491506bcef",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "a73ba240ef56aad1",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "6f16b8231d6a0469",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "6107ba611a09e605",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "c6e0cdafc91ebf93",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "62cfb7bb0d9d8a70",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "c6dae3398527e3e1",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "b7bf1e1815390309",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "ffa14535aff96232",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "521111ede1fe1f96",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "a34d32c8752890a2",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "21e2ad83f2c9a960",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "c1285e7ba612b03b",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "4f7ebf1c61046624",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "cbe4d5ff3c491c11",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "e9782cc677d9b436",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "9053a8106ea8eca1",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "518d2356e48aea50",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "5ee6bbe26c9ebda4",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "e2046a377195b767",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "c3242776d7f9d1d4",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "9c70f0180dd3701b",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "2a0c96be1c5cf6cd",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "3a16456f8af281a1",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "96f79b27fe3680d6",
+   "divisao": "teste_tamanho",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "7fadecb6b9077aeb",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "2fd407696cc921e5",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "416017d25f8bee90",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "384359203e48e7aa",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "dc474f80f7cf7da3",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999973
+    }
+   ]
+  },
+  {
+   "id": "69e1d72758e739d3",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "fb9dcca586b85530",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "8af030fafe25a626",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999973
+    }
+   ]
+  },
+  {
+   "id": "7d6c28fdaa5dc371",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "76a63b035cb1c996",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "4196a320b29a0d8a",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "96b23ff5ea0bedc1",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "0669d842926a72a8",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999989
+    }
+   ]
+  },
+  {
+   "id": "d8fecb71b332b78a",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "9be99dcf9de649d5",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "2120e96b0357ad57",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "6cdca7931340096e",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "c602bd929d7ae82e",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "a8c4b4a91b80bddd",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "0bc30a85592c0f33",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "fb5b47dd0ac677fb",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "b5e09bd913fa3100",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "6262a446c02df57e",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "fcac34f27f50ef85",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "b401a5f374681738",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "12c2f8dfdb0e7e2e",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "363b42db16b804c3",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "d1c97f9b5719bd52",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "0b1b21b32584b32d",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999973
+    }
+   ]
+  },
+  {
+   "id": "8d164204a9a2104b",
+   "divisao": "teste_tamanho",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999971
+    }
+   ]
+  },
+  {
+   "id": "443adbdf2dba53e0",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.29358315264288987
+    }
+   ]
+  },
+  {
+   "id": "e17b143dfe108deb",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.8807382583618093
+    }
+   ]
+  },
+  {
+   "id": "973289740726f8cc",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.9384765624999851
+    }
+   ]
+  },
+  {
+   "id": "73b58c79b2a6593d",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.26889375589000286
+    }
+   ]
+  },
+  {
+   "id": "c331555e9ab9fe08",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.033306845884591194
+    }
+   ]
+  },
+  {
+   "id": "f833387d06b7ce98",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.18789321769144915
+    }
+   ]
+  },
+  {
+   "id": "e2608bb28ea5de33",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999836
+    }
+   ]
+  },
+  {
+   "id": "d94407f37be60a78",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999838
+    }
+   ]
+  },
+  {
+   "id": "9d1182d027e92e9f",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.01580216006067339
+    }
+   ]
+  },
+  {
+   "id": "78fcc46178444f03",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.5908034829296572
+    }
+   ]
+  },
+  {
+   "id": "de0411608bd5071f",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.027165510081143762
+    }
+   ]
+  },
+  {
+   "id": "41c470846fe5df19",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999992
+    }
+   ]
+  },
+  {
+   "id": "5953e01a113b32f2",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "503d7a642712aaf3",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.3134815663220185
+    }
+   ]
+  },
+  {
+   "id": "0b765fa4dc338679",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.003330243664322475
+    }
+   ]
+  },
+  {
+   "id": "e52d17a46f20d608",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999565
+    }
+   ]
+  },
+  {
+   "id": "9af032184a3d910d",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "3e9fba97dda9a319",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "5813d95660d8331e",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0005490035264301683
+    }
+   ]
+  },
+  {
+   "id": "2754a331b62b8b78",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.4872516154917062
+    }
+   ]
+  },
+  {
+   "id": "fde89e76bcff09d1",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "21283cfd6d3da623",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999656
+    }
+   ]
+  },
+  {
+   "id": "235a8a363d40f16e",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "99db9ad02fc69a54",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999631
+    }
+   ]
+  },
+  {
+   "id": "f5b3aafcf5de3e49",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_execucao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "ab9c171797c7ab7a",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 4.2719467718967454e-05
+    }
+   ]
+  },
+  {
+   "id": "9058d6800ff6838f",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.23461914062499645
+    }
+   ]
+  },
+  {
+   "id": "62c395ece63e9c4e",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.26889375589000203
+    }
+   ]
+  },
+  {
+   "id": "a8413da00af329fc",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.4106445312499972
+    }
+   ]
+  },
+  {
+   "id": "d6dfca30a0930bbb",
+   "divisao": "teste_tamanho",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999571
+    }
+   ]
+  },
+  {
+   "id": "115f0fafc29cb415",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.015799730004123273
+    }
+   ]
+  },
+  {
+   "id": "5a87b999f1452845",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0008355642119335925
+    }
+   ]
+  },
+  {
+   "id": "f23f2cac41151ea5",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.21868339881282828
+    }
+   ]
+  },
+  {
+   "id": "52ca5d73c6c388d7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.05750975788244411
+    }
+   ]
+  },
+  {
+   "id": "9b8a51c093f119f9",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.03467539473749691
+    }
+   ]
+  },
+  {
+   "id": "a289bf40f1067d13",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00721613060852931
+    }
+   ]
+  },
+  {
+   "id": "a41056af887fc9f6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "629c447767bd483f",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.23389795036566824
+    }
+   ]
+  },
+  {
+   "id": "cb444128ae46b2dd",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.9959847637198519
+    }
+   ]
+  },
+  {
+   "id": "5a965a186ded99e7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "c3aa0442e186a4a9",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0027178033112680747
+    }
+   ]
+  },
+  {
+   "id": "6d9f15304bd1f0e0",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0225723218024479
+    }
+   ]
+  },
+  {
+   "id": "6c1917f6a438d483",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.006447945732834629
+    }
+   ]
+  },
+  {
+   "id": "5caa49d777f91aed",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.011453884332994567
+    }
+   ]
+  },
+  {
+   "id": "526155941fbd8db7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.3006736405564316
+    }
+   ]
+  },
+  {
+   "id": "93807b12becaeddb",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "26960e888022f39b",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.015285987888081621
+    }
+   ]
+  },
+  {
+   "id": "d654e8a9c4820ea3",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "45445c76f9b2c63a",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "9c6e2cdcfe0414fe",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "7c3c37b90a2c41c6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.003405941918982511
+    }
+   ]
+  },
+  {
+   "id": "47a5cd624b657f3c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.043053012620452843
+    }
+   ]
+  },
+  {
+   "id": "98fefe8a7ae31234",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "ee97ceb9cb3bd733",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0036660494534132186
+    }
+   ]
+  },
+  {
+   "id": "be30e1fb4bc89c17",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00012008558753777539
+    }
+   ]
+  },
+  {
+   "id": "b1d2f4ef81fbd887",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "6a742b10329dcb15",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.016120566687619402
+    }
+   ]
+  },
+  {
+   "id": "a9aeed4af55f7f3f",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00036738316625733477
+    }
+   ]
+  },
+  {
+   "id": "028224202f4bd3c3",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.008792525206105753
+    }
+   ]
+  },
+  {
+   "id": "83f6496f86868133",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "511858887976b107",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "087cb2404ffb5746",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.007361307726590072
+    }
+   ]
+  },
+  {
+   "id": "a59004d802dbf814",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "0d53a54b6e59b736",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.005045278997163712
+    }
+   ]
+  },
+  {
+   "id": "a8089dd3cd38ea46",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.02654955561245598
+    }
+   ]
+  },
+  {
+   "id": "079b6c251fde9b5b",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.01606985993989687
+    }
+   ]
+  },
+  {
+   "id": "2254c0d639b0ce27",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "32d59be36d0c46f8",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "6c012e0537bd4367",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 6.644005984185018e-05
+    }
+   ]
+  },
+  {
+   "id": "91d481468ca867e7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.17193406707704936
+    }
+   ]
+  },
+  {
+   "id": "ce407346f7e92dd6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.01569634564830809
+    }
+   ]
+  },
+  {
+   "id": "85defe544924d461",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "9cb7e3ec43d74e38",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.12015240701106418
+    }
+   ]
+  },
+  {
+   "id": "d03f2c602978ff46",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 2.304636550893358e-06
+    }
+   ]
+  },
+  {
+   "id": "53adf05ddf2f3f79",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0005000629741177264
+    }
+   ]
+  },
+  {
+   "id": "547662fae3eff04b",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.008005000601448037
+    }
+   ]
+  },
+  {
+   "id": "aeb7af79630d698a",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.005269364120718661
+    }
+   ]
+  },
+  {
+   "id": "a30e84df10920a5c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "a9ea870e064197d0",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "fe6b7c7eb5882093",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "49a5d82317e0a6d8",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00045825730380925873
+    }
+   ]
+  },
+  {
+   "id": "08426eb6e2db7d4f",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.20453184453188006
+    }
+   ]
+  },
+  {
+   "id": "af3b256803b547e7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "a539babc543331f4",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0006484267267640187
+    }
+   ]
+  },
+  {
+   "id": "bdd797ecdc143347",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "51f65e7396750cbb",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.006506278429778676
+    }
+   ]
+  },
+  {
+   "id": "7e7cdb3e7203d2ba",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00816304483380447
+    }
+   ]
+  },
+  {
+   "id": "ec99e54d410f99aa",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "5fc635c72da6b6c6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00027492420041521135
+    }
+   ]
+  },
+  {
+   "id": "9b0ede1d36894742",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999474384209316
+    }
+   ]
+  },
+  {
+   "id": "249c09aaaab73414",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.000749400261685618
+    }
+   ]
+  },
+  {
+   "id": "dad6b501b1e8021d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.29713620249709005
+    }
+   ]
+  },
+  {
+   "id": "69c8792aceea8512",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.09072939097881841
+    }
+   ]
+  },
+  {
+   "id": "1c88f209cfde278f",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0031595203837241626
+    }
+   ]
+  },
+  {
+   "id": "1e9a446d1ec91a09",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "c08d9e0d4219b2e2",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07402719595275997
+    }
+   ]
+  },
+  {
+   "id": "d015f6e73810b2df",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00884690920045584
+    }
+   ]
+  },
+  {
+   "id": "90ef686213bb1867",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.03457703984435229
+    }
+   ]
+  },
+  {
+   "id": "e98e32ca622e19bd",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "e04f4d38aebfbaa7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "29710fb22bb99226",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.03163886016655839
+    }
+   ]
+  },
+  {
+   "id": "72d957cd2062176d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0035886026507263146
+    }
+   ]
+  },
+  {
+   "id": "a1c188d8fbe0bad7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.010550195643128257
+    }
+   ]
+  },
+  {
+   "id": "f0c4a8264fb54302",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.005615570071570326
+    }
+   ]
+  },
+  {
+   "id": "a355d3faa27f17f0",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.05997054377842335
+    }
+   ]
+  },
+  {
+   "id": "c5c898a2f551e41a",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.002196375913185993
+    }
+   ]
+  },
+  {
+   "id": "aae774d4a116f1d2",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "0df6f0c2f6eab712",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.004491301452316579
+    }
+   ]
+  },
+  {
+   "id": "8e07bead0432e1ee",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07621318209316992
+    }
+   ]
+  },
+  {
+   "id": "c688f6ad7ad3d692",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0007870657490054825
+    }
+   ]
+  },
+  {
+   "id": "b7827aef34558dfd",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "344e2e67b62c548d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 2.0530286221253947e-06
+    }
+   ]
+  },
+  {
+   "id": "e306dae06104a174",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.012219398374818037
+    }
+   ]
+  },
+  {
+   "id": "ed78a5dbebd8c750",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.19136707705781025
+    }
+   ]
+  },
+  {
+   "id": "3f3f1331a38b9a25",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.003344223533523531
+    }
+   ]
+  },
+  {
+   "id": "9ae68d7c8a45ed97",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.002196940916757685
+    }
+   ]
+  },
+  {
+   "id": "1cc093963ed5911f",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "d8f8a8574b61b5e1",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.053222175366456376
+    }
+   ]
+  },
+  {
+   "id": "86e6fcd2b1787423",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.014428002916273547
+    }
+   ]
+  },
+  {
+   "id": "6a0a82c60cb20da7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.04904570603679246
+    }
+   ]
+  },
+  {
+   "id": "8a79dfe1baee7be1",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "2e4e9cd87d1fc1bf",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "9b009eb0cb784fa3",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.006372768250641773
+    }
+   ]
+  },
+  {
+   "id": "c22c16bae1998022",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 3.774423601922918e-05
+    }
+   ]
+  },
+  {
+   "id": "ef0b10cb63d84fbe",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.1387694818671785
+    }
+   ]
+  },
+  {
+   "id": "60f57cce5552c39d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "a095b1634016431c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "65201d9ddd504a4c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.011735344577257091
+    }
+   ]
+  },
+  {
+   "id": "555549b4e5f94c68",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 7.804980981825677e-08
+    }
+   ]
+  },
+  {
+   "id": "f16daf700b40d7f5",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.009700012615665832
+    }
+   ]
+  },
+  {
+   "id": "544fe5037a51c969",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07412861015031315
+    }
+   ]
+  },
+  {
+   "id": "c0269fa55cd7a5bd",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "368d15d1f3efbacb",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.06181767920193401
+    }
+   ]
+  },
+  {
+   "id": "80b6540645601df5",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "a9c61bb189a94b46",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "3a9a69c05683e488",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "02e5279dd509d3e8",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "b3df32b3e29daa1d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0012957824039611086
+    }
+   ]
+  },
+  {
+   "id": "4e5205bd9a74a2a4",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07237395100359613
+    }
+   ]
+  },
+  {
+   "id": "97ccabdae7c5f068",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "12612452f3915979",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "bb29dc1b7f50e80c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 2.6144438010305535e-05
+    }
+   ]
+  },
+  {
+   "id": "ad9bab8d333d98a6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "a675d19842b8684c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.11509843941475414
+    }
+   ]
+  },
+  {
+   "id": "ffb7ca709eb2f1fe",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.005180679637124241
+    }
+   ]
+  },
+  {
+   "id": "fdef20d2f10d4f6e",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "6a1f3364f8b98023",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.022896952197645634
+    }
+   ]
+  },
+  {
+   "id": "b6ace0e04a84b7ce",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "5770bfbca97dcb46",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "4a67216b511efa28",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "a3fa295a842538ff",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "732d2e77a954855f",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.3209243218221329
+    }
+   ]
+  },
+  {
+   "id": "c8e1ca17791a4443",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.12371742853500949
+    }
+   ]
+  },
+  {
+   "id": "de2661ddedd2d84b",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.9663272401396568
+    }
+   ]
+  },
+  {
+   "id": "efef4d2fb311a69e",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0017954898674337357
+    }
+   ]
+  },
+  {
+   "id": "8b7f4e35c46b4d79",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.04725566637661034
+    }
+   ]
+  },
+  {
+   "id": "8e96e2a4f8339edd",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "8f60de5aff202da3",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "4c4e5aa3d6261e8d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.30354037281795715
+    }
+   ]
+  },
+  {
+   "id": "9bedda52d8c65c09",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.003076681776317888
+    }
+   ]
+  },
+  {
+   "id": "02cb52236e9101b5",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.006660669320943327
+    }
+   ]
+  },
+  {
+   "id": "807340dc3f2b115c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "74d883067aad69ee",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0004152254684718975
+    }
+   ]
+  },
+  {
+   "id": "780edecc8734ca97",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.1343292167357339
+    }
+   ]
+  },
+  {
+   "id": "86b0830e74de0d4e",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "5214371a84abcc42",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "3bc36d89c65aee59",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.39713790283121747
+    }
+   ]
+  },
+  {
+   "id": "18dfd59b5e7b0631",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.32631500480200404
+    }
+   ]
+  },
+  {
+   "id": "367c246ebb7a1a4f",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "f36251138b4f2324",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.000769109879376592
+    }
+   ]
+  },
+  {
+   "id": "efc01938632db3f9",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0005358469182527493
+    }
+   ]
+  },
+  {
+   "id": "1039bf92294d5fbb",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.14590597775751205
+    }
+   ]
+  },
+  {
+   "id": "9320fd89e15aa1cb",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0038931534192462296
+    }
+   ]
+  },
+  {
+   "id": "940cb1c3cd752ca0",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "8c5b35e164d8c0b0",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "7adf2ff3efa34ca6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "add961e68cf63f86",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.6495404631776431
+    }
+   ]
+  },
+  {
+   "id": "b60ac1c693a7e52d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.06034684891342298
+    }
+   ]
+  },
+  {
+   "id": "18f8d7c71cd9ee48",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0601470414527621
+    }
+   ]
+  },
+  {
+   "id": "8a97457910afdb6d",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.44610308889346717
+    }
+   ]
+  },
+  {
+   "id": "63250323bb70b068",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "ea5a64e3eacfbfff",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "a6dd27d48adf60f9",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "d52cbc01d1ae45c1",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "899d7c4ff3dd08e8",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.20412178499299466
+    }
+   ]
+  },
+  {
+   "id": "39844cd4f1cd41f6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.019367335331575836
+    }
+   ]
+  },
+  {
+   "id": "d0208748a3cb8c33",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "d99fdac371ebbb30",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.5132466132945673
+    }
+   ]
+  },
+  {
+   "id": "8fc501615c063d15",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.8572907051002298
+    }
+   ]
+  },
+  {
+   "id": "fbbb2f69f0132c64",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 8.524203811153167e-06
+    }
+   ]
+  },
+  {
+   "id": "2f9f5ce83b330322",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00041223527487241877
+    }
+   ]
+  },
+  {
+   "id": "5e1c9782df4deb58",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.004687961369972849
+    }
+   ]
+  },
+  {
+   "id": "7f6e16ec182326d6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "37e1e7185fe554a4",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "5232e8ebf3db4827",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.033764668714017114
+    }
+   ]
+  },
+  {
+   "id": "807ce544b28ee1b5",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.006159172165610436
+    }
+   ]
+  },
+  {
+   "id": "2401fdbe4f389cd6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.008805512095607617
+    }
+   ]
+  },
+  {
+   "id": "7fb1a8b98d39328e",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "8e3e9ed9ffa59cb7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.3230110410824045
+    }
+   ]
+  },
+  {
+   "id": "f1d82b23cdf7e716",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00748122046645335
+    }
+   ]
+  },
+  {
+   "id": "d0b786ab661cc034",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "cdfd24cb8d7b71dc",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.01573721375500891
+    }
+   ]
+  },
+  {
+   "id": "b3dada3b30f40b97",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.002008663622019617
+    }
+   ]
+  },
+  {
+   "id": "0bf0246e79923bae",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.8289255248575521
+    }
+   ]
+  },
+  {
+   "id": "db97a2a0af144b15",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0002613814558767123
+    }
+   ]
+  },
+  {
+   "id": "5d7af10a15dfe8d1",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.002616214531158276
+    }
+   ]
+  },
+  {
+   "id": "5865737baff54b7c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "1949030166eb47ee",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "9a1b1de09fab1833",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999989
+    }
+   ]
+  },
+  {
+   "id": "ce008e137157d008",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00020877110017239307
+    }
+   ]
+  },
+  {
+   "id": "5848d20a6fab0be5",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "92569d0d2599229b",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.010884925485220714
+    }
+   ]
+  },
+  {
+   "id": "5fbc37faaba8ceba",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.24449286219952962
+    }
+   ]
+  },
+  {
+   "id": "e6faad1e6b3803f2",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.06910099730274744
+    }
+   ]
+  },
+  {
+   "id": "901ffbe0c0421976",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "afaa000698ecf439",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.3503271126743329
+    }
+   ]
+  },
+  {
+   "id": "6582195b0261f1b2",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "4c24208d867dc579",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "ff1624af7036cc4c",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.029382404133201187
+    }
+   ]
+  },
+  {
+   "id": "d080841df20348c1",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "3b2f5abf3c3a1766",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.014309550420468966
+    }
+   ]
+  },
+  {
+   "id": "398892f9cc8666d8",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.027477198966641737
+    }
+   ]
+  },
+  {
+   "id": "308047fb90a5b691",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.034858094273375814
+    }
+   ]
+  },
+  {
+   "id": "d0450501d35b06e1",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.001561676388730178
+    }
+   ]
+  },
+  {
+   "id": "26d57e9973a9e8a1",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00015997481281255905
+    }
+   ]
+  },
+  {
+   "id": "dd31789a14837ad7",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "1f2231c8c482b61e",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "4fac3f43b69c7762",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.014785747112999886
+    }
+   ]
+  },
+  {
+   "id": "26253a915cf6f9a6",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 3.2331629405481646e-06
+    }
+   ]
+  },
+  {
+   "id": "b340343d26329543",
+   "divisao": "teste_estrutura",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000009
+    }
+   ]
+  },
+  {
+   "id": "estilo_dea6fa5512f14e9a",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_b401a5f374681738",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "estilo_e2046a377195b767",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_b5e09bd913fa3100",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "estilo_7d10857dfea4a837",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_f833387d06b7ce98",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.7628419850749281
+    }
+   ]
+  },
+  {
+   "id": "estilo_fc6324d10531d305",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.14285701748720997
+    }
+   ]
+  },
+  {
+   "id": "estilo_d9440c28b2661132",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.06413949421851653
+    }
+   ]
+  },
+  {
+   "id": "estilo_15ead949e4dbb1ec",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "estilo_6f16b8231d6a0469",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_b7bf1e1815390309",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.14285724093452748
+    }
+   ]
+  },
+  {
+   "id": "estilo_9a87040866a54f64",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_53df527264e65b80",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "estilo_5953e01a113b32f2",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999916
+    }
+   ]
+  },
+  {
+   "id": "estilo_c98aedacb260fecc",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.020331952094843356
+    }
+   ]
+  },
+  {
+   "id": "estilo_5813d95660d8331e",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0005490035264301683
+    }
+   ]
+  },
+  {
+   "id": "estilo_cbe4d5ff3c491c11",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.14285724093452748
+    }
+   ]
+  },
+  {
+   "id": "estilo_96b23ff5ea0bedc1",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "estilo_9af032184a3d910d",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_9be99dcf9de649d5",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "estilo_f378040e86049ce2",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "estilo_99db9ad02fc69a54",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.033306845884591055
+    }
+   ]
+  },
+  {
+   "id": "estilo_6262a446c02df57e",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "estilo_bf58e40fedb77cf4",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_57bdf72acd35846b",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00014381085228964461
+    }
+   ]
+  },
+  {
+   "id": "estilo_0b765fa4dc338679",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.003330243664322475
+    }
+   ]
+  },
+  {
+   "id": "estilo_88e579aab3eb827a",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "estilo_fd6f03addf4231c0",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "estilo_5522183a8575427c",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_3a5f87b5e97a643c",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_7d4d3ea606420cc1",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_4a1c0ae76fe44ba9",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_2cc58a78fd4c5466",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.24999999999999922
+    }
+   ]
+  },
+  {
+   "id": "estilo_150719ef582ada82",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_db5442c3355cc24e",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_f5b3aafcf5de3e49",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.9689941406249917
+    }
+   ]
+  },
+  {
+   "id": "estilo_363b42db16b804c3",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "estilo_7b3c82baa4a6f411",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_f3a631eef4838cfc",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_694c8e961080024a",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.11581074990831497
+    }
+   ]
+  },
+  {
+   "id": "estilo_4282b30e54296001",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.03766266997081585
+    }
+   ]
+  },
+  {
+   "id": "estilo_4a857619dd401324",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_e17b143dfe108deb",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 2.9424495713338298e-34
+    }
+   ]
+  },
+  {
+   "id": "estilo_6b619688ed5ea11f",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_0d97e404dbcffcb3",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.515360635018499
+    }
+   ]
+  },
+  {
+   "id": "estilo_712e98bafd761300",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "estilo_96f79b27fe3680d6",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.16666666033928862
+    }
+   ]
+  },
+  {
+   "id": "estilo_513de738ec1cd876",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_7d6c28fdaa5dc371",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_4196a320b29a0d8a",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "estilo_33e675cdab8634e1",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_2752ebdc86f648c6",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_4f7ebf1c61046624",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_6e7024f4192ccb3c",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999987
+    }
+   ]
+  },
+  {
+   "id": "estilo_75ced7854cf264a0",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_6d10f93d5a0d00e1",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_bf3d7355f123d28a",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_c6e0cdafc91ebf93",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.16666666033928862
+    }
+   ]
+  },
+  {
+   "id": "estilo_de0194a51a7d5adc",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "estilo_0d25837f2d066b8b",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.1428572409345274
+    }
+   ]
+  },
+  {
+   "id": "estilo_d6dfca30a0930bbb",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999571
+    }
+   ]
+  },
+  {
+   "id": "estilo_e008331e388df4e5",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 1.0111965471009513e-05
+    }
+   ]
+  },
+  {
+   "id": "estilo_fa37254b96cca020",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_30f92699e6a3ed7e",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_b67ef113cdb84eba",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_a73ba240ef56aad1",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.1428572409345274
+    }
+   ]
+  },
+  {
+   "id": "estilo_2e6846e5ada25a23",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_f49ba2af55b51c76",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_49ed27122956f8aa",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.999999999999998
+    }
+   ]
+  },
+  {
+   "id": "estilo_767600a886a04220",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "estilo_7ac4c7db745f4b1a",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_a55321e24402bed7",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_0ed2c32399883862",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_25e3a5a036f5db58",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_deda5ded28beecc6",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 3.3120544895366795e-33
+    }
+   ]
+  },
+  {
+   "id": "estilo_7f9b2f6c232d0e9f",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_dc474f80f7cf7da3",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999973
+    }
+   ]
+  },
+  {
+   "id": "estilo_c3fd4a6f2dd249d2",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_3f2f51e1f0d41bfd",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_0669d842926a72a8",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999989
+    }
+   ]
+  },
+  {
+   "id": "estilo_5b0549f136119c7e",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "estilo_ff380f7e78407112",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_6e2c0af803916fef",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_8af030fafe25a626",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999973
+    }
+   ]
+  },
+  {
+   "id": "estilo_c602bd929d7ae82e",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "estilo_5a42ae7bbf162ecb",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_13730b328c3ae17d",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.14285701748720997
+    }
+   ]
+  },
+  {
+   "id": "estilo_9053a8106ea8eca1",
+   "divisao": "teste_estilo",
+   "familia": "w",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.14285724093452748
+    }
+   ]
+  },
+  {
+   "id": "estilo_503d7a642712aaf3",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.5770590546310265
+    }
+   ]
+  },
+  {
+   "id": "estilo_4518bff7995cf41e",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.29040198068093726
+    }
+   ]
+  },
+  {
+   "id": "estilo_2120e96b0357ad57",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "estilo_de0411608bd5071f",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.5825976387692302
+    }
+   ]
+  },
+  {
+   "id": "estilo_2b6c5c72082ba001",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_ff58e8a2b7baee02",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_d1c97f9b5719bd52",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "estilo_fde89e76bcff09d1",
+   "divisao": "teste_estilo",
+   "familia": "grover",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.12092287721312107
+    }
+   ]
+  },
+  {
+   "id": "estilo_06a83e8ec4d5b54a",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 3.0814879110195774e-33
+    }
+   ]
+  },
+  {
+   "id": "estilo_c0679204f88a82c8",
+   "divisao": "teste_estilo",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_d8fecb71b332b78a",
+   "divisao": "teste_estilo",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999978
+    }
+   ]
+  },
+  {
+   "id": "estilo_d67fd160fdb54520",
+   "divisao": "teste_estilo",
+   "familia": "ghz",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_c5c898a2f551e41a",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00924471003862342
+    }
+   ]
+  },
+  {
+   "id": "estilo_6d9f15304bd1f0e0",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_9c6e2cdcfe0414fe",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_2254c0d639b0ce27",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_7f6e16ec182326d6",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_d8f8a8574b61b5e1",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.07346090450475484
+    }
+   ]
+  },
+  {
+   "id": "estilo_f23f2cac41151ea5",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_26253a915cf6f9a6",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 3.2331629405481646e-06
+    }
+   ]
+  },
+  {
+   "id": "estilo_544fe5037a51c969",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_9b8a51c093f119f9",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.03467539473749692
+    }
+   ]
+  },
+  {
+   "id": "estilo_ef0b10cb63d84fbe",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.13876948186717855
+    }
+   ]
+  },
+  {
+   "id": "estilo_8e96e2a4f8339edd",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_bb29dc1b7f50e80c",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0010812989604365635
+    }
+   ]
+  },
+  {
+   "id": "estilo_901ffbe0c0421976",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_a6dd27d48adf60f9",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_d080841df20348c1",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_83f6496f86868133",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "estilo_d0b786ab661cc034",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_69c8792aceea8512",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.30681402670961416
+    }
+   ]
+  },
+  {
+   "id": "estilo_8f60de5aff202da3",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_80b6540645601df5",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_afaa000698ecf439",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.002381228914145071
+    }
+   ]
+  },
+  {
+   "id": "estilo_45445c76f9b2c63a",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_d0450501d35b06e1",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "estilo_37e1e7185fe554a4",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_a59004d802dbf814",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_b60ac1c693a7e52d",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_d52cbc01d1ae45c1",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "estilo_90ef686213bb1867",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_ce407346f7e92dd6",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.01569634564830809
+    }
+   ]
+  },
+  {
+   "id": "estilo_5770bfbca97dcb46",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_c688f6ad7ad3d692",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_f36251138b4f2324",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.000769109879376592
+    }
+   ]
+  },
+  {
+   "id": "estilo_29710fb22bb99226",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.03163886016655839
+    }
+   ]
+  },
+  {
+   "id": "estilo_b3df32b3e29daa1d",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_cdfd24cb8d7b71dc",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.01573721375500891
+    }
+   ]
+  },
+  {
+   "id": "estilo_86e6fcd2b1787423",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.014428002916273537
+    }
+   ]
+  },
+  {
+   "id": "estilo_6a1f3364f8b98023",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.022896952197645634
+    }
+   ]
+  },
+  {
+   "id": "estilo_3a9a69c05683e488",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_c0269fa55cd7a5bd",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "estilo_a539babc543331f4",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_e306dae06104a174",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_60f57cce5552c39d",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_98fefe8a7ae31234",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000004
+    }
+   ]
+  },
+  {
+   "id": "estilo_5caa49d777f91aed",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0000000000000013
+    }
+   ]
+  },
+  {
+   "id": "estilo_cb444128ae46b2dd",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.00411993647600354
+    }
+   ]
+  },
+  {
+   "id": "estilo_4c4e5aa3d6261e8d",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.005723987027384151
+    }
+   ]
+  },
+  {
+   "id": "estilo_1f2231c8c482b61e",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.002604434338907361
+    }
+   ]
+  },
+  {
+   "id": "estilo_97ccabdae7c5f068",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_74d883067aad69ee",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_8c5b35e164d8c0b0",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_18dfd59b5e7b0631",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_f0c4a8264fb54302",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0001172134966082207
+    }
+   ]
+  },
+  {
+   "id": "estilo_ffb7ca709eb2f1fe",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.005180679637124241
+    }
+   ]
+  },
+  {
+   "id": "estilo_63250323bb70b068",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_7fb1a8b98d39328e",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_dd31789a14837ad7",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_9ae68d7c8a45ed97",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_3b2f5abf3c3a1766",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_5fc635c72da6b6c6",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_86b0830e74de0d4e",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_c22c16bae1998022",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_5214371a84abcc42",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.349966800840238
+    }
+   ]
+  },
+  {
+   "id": "estilo_aae774d4a116f1d2",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_0df6f0c2f6eab712",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.039082229369409686
+    }
+   ]
+  },
+  {
+   "id": "estilo_079b6c251fde9b5b",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.11875855278045072
+    }
+   ]
+  },
+  {
+   "id": "estilo_c3aa0442e186a4a9",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0027178033112680747
+    }
+   ]
+  },
+  {
+   "id": "estilo_e98e32ca622e19bd",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_1c88f209cfde278f",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_9320fd89e15aa1cb",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_08426eb6e2db7d4f",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_115f0fafc29cb415",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_511858887976b107",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "estilo_3bc36d89c65aee59",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.04468323362259026
+    }
+   ]
+  },
+  {
+   "id": "estilo_bdd797ecdc143347",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_b1d2f4ef81fbd887",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_ee97ceb9cb3bd733",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.0036660494534132195
+    }
+   ]
+  },
+  {
+   "id": "estilo_9cb7e3ec43d74e38",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_629c447767bd483f",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_a9ea870e064197d0",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.049823924408753675
+    }
+   ]
+  },
+  {
+   "id": "estilo_a289bf40f1067d13",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.007216130608529317
+    }
+   ]
+  },
+  {
+   "id": "estilo_1e9a446d1ec91a09",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_9b0ede1d36894742",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 2.5731966617963323e-05
+    }
+   ]
+  },
+  {
+   "id": "estilo_087cb2404ffb5746",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_a9c61bb189a94b46",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 2,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_de2661ddedd2d84b",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.012605387877771133
+    }
+   ]
+  },
+  {
+   "id": "estilo_5fbc37faaba8ceba",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
+    }
+   ]
+  },
+  {
+   "id": "estilo_a675d19842b8684c",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_aeb7af79630d698a",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999989
+    }
+   ]
+  },
+  {
+   "id": "estilo_8a97457910afdb6d",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "estilo_c8e1ca17791a4443",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.010859454210630089
+    }
+   ]
+  },
+  {
+   "id": "estilo_807340dc3f2b115c",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.11386003355632003
+    }
+   ]
+  },
+  {
+   "id": "estilo_0d53a54b6e59b736",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 5.3585418233233076e-05
+    }
+   ]
+  },
+  {
+   "id": "estilo_6c012e0537bd4367",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_51f65e7396750cbb",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "estilo_fdef20d2f10d4f6e",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_7e7cdb3e7203d2ba",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_308047fb90a5b691",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "estilo_8e3e9ed9ffa59cb7",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 3.591786125517973e-06
+    }
+   ]
+  },
+  {
+   "id": "estilo_db97a2a0af144b15",
+   "divisao": "teste_estilo",
+   "familia": "hea",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  }
+ ]
+}

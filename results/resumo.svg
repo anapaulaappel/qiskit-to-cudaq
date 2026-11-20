@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="996" height="324" viewBox="0 0 996 324" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="State-equivalence rates for six models on three test sets">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="16" y="28" font-size="16" font-weight="600" fill="#0b0b0b">Fine-tuning vs prompting: state equivalence (fidelity ≥ 0.999)</text>
+<text x="16" y="48" font-size="12" fill="#52514e">Same tasks for every model; whiskers are 95% Wilson intervals.</text>
+<text x="184" y="86.0" font-size="12" text-anchor="end" fill="#0b0b0b">Base model</text>
+<text x="184" y="120.0" font-size="12" text-anchor="end" fill="#0b0b0b">Base + 4-shot prompt</text>
+<text x="184" y="154.0" font-size="12" text-anchor="end" fill="#0b0b0b">LoRA</text>
+<text x="184" y="188.0" font-size="12" text-anchor="end" fill="#0b0b0b">LoRA + replay (script)</text>
+<text x="184" y="222.0" font-size="12" text-anchor="end" fill="#0b0b0b">LoRA + style variety (A)</text>
+<text x="184" y="256.0" font-size="12" text-anchor="end" fill="#0b0b0b">LoRA + replay (function, B)</text>
+<text x="196" y="62" font-size="12" font-weight="600" fill="#0b0b0b">Unseen Qiskit style (200 tasks)</text>
+<line x1="196.0" y1="70" x2="196.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="196.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">0%</text>
+<line x1="291.0" y1="70" x2="291.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="291.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">50%</text>
+<line x1="386.0" y1="70" x2="386.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="386.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">100%</text>
+
+<line x1="196.0" y1="82.0" x2="199.6" y2="82.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="205.6" y="86.0" font-size="11" fill="#0b0b0b">0.0%</text>
+<path d="M196.0,108.0 H316.4 A4,4 0 0 1 320.4,112.0 V120.0 A4,4 0 0 1 316.4,124.0 H196.0 Z" fill="#2a78d6"/>
+<line x1="307.5" y1="116.0" x2="332.3" y2="116.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="338.3" y="120.0" font-size="11" fill="#0b0b0b">65.5%</text>
+<path d="M196.0,142.0 H284.1 A4,4 0 0 1 288.1,146.0 V154.0 A4,4 0 0 1 284.1,158.0 H196.0 Z" fill="#2a78d6"/>
+<line x1="275.2" y1="150.0" x2="301.2" y2="150.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="307.2" y="154.0" font-size="11" fill="#0b0b0b">48.5%</text>
+<path d="M196.0,176.0 H292.7 A4,4 0 0 1 296.7,180.0 V188.0 A4,4 0 0 1 292.7,192.0 H196.0 Z" fill="#2a78d6"/>
+<line x1="283.6" y1="184.0" x2="309.6" y2="184.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="315.6" y="188.0" font-size="11" fill="#0b0b0b">53.0%</text>
+<path d="M196.0,210.0 H292.7 A4,4 0 0 1 296.7,214.0 V222.0 A4,4 0 0 1 292.7,226.0 H196.0 Z" fill="#2a78d6"/>
+<line x1="283.6" y1="218.0" x2="309.6" y2="218.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="315.6" y="222.0" font-size="11" fill="#0b0b0b">53.0%</text>
+<path d="M196.0,244.0 H262.3 A4,4 0 0 1 266.3,248.0 V256.0 A4,4 0 0 1 262.3,260.0 H196.0 Z" fill="#2a78d6"/>
+<line x1="254.2" y1="252.0" x2="279.4" y2="252.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="285.4" y="256.0" font-size="11" fill="#0b0b0b">37.0%</text>
+<text x="466" y="62" font-size="12" font-weight="600" fill="#0b0b0b">All translations (640 tasks)</text>
+<line x1="466.0" y1="70" x2="466.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="466.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">0%</text>
+<line x1="561.0" y1="70" x2="561.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="561.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">50%</text>
+<line x1="656.0" y1="70" x2="656.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="656.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">100%</text>
+
+<line x1="466.0" y1="82.0" x2="467.1" y2="82.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="473.1" y="86.0" font-size="11" fill="#0b0b0b">0.0%</text>
+<path d="M466.0,108.0 H619.9 A4,4 0 0 1 623.9,112.0 V120.0 A4,4 0 0 1 619.9,124.0 H466.0 Z" fill="#2a78d6"/>
+<line x1="618.1" y1="116.0" x2="629.1" y2="116.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="635.1" y="120.0" font-size="11" fill="#0b0b0b">83.1%</text>
+<path d="M466.0,142.0 H621.4 A4,4 0 0 1 625.4,146.0 V154.0 A4,4 0 0 1 621.4,158.0 H466.0 Z" fill="#2a78d6"/>
+<line x1="619.6" y1="150.0" x2="630.4" y2="150.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="636.4" y="154.0" font-size="11" fill="#0b0b0b">83.9%</text>
+<path d="M466.0,176.0 H623.5 A4,4 0 0 1 627.5,180.0 V188.0 A4,4 0 0 1 623.5,192.0 H466.0 Z" fill="#2a78d6"/>
+<line x1="621.8" y1="184.0" x2="632.4" y2="184.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="638.4" y="188.0" font-size="11" fill="#0b0b0b">85.0%</text>
+<path d="M466.0,210.0 H624.1 A4,4 0 0 1 628.1,214.0 V222.0 A4,4 0 0 1 624.1,226.0 H466.0 Z" fill="#2a78d6"/>
+<line x1="622.5" y1="218.0" x2="632.9" y2="218.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="638.9" y="222.0" font-size="11" fill="#0b0b0b">85.3%</text>
+<path d="M466.0,244.0 H614.3 A4,4 0 0 1 618.3,248.0 V256.0 A4,4 0 0 1 614.3,260.0 H466.0 Z" fill="#2a78d6"/>
+<line x1="612.1" y1="252.0" x2="623.8" y2="252.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="629.8" y="256.0" font-size="11" fill="#0b0b0b">80.2%</text>
+<text x="736" y="62" font-size="12" font-weight="600" fill="#0b0b0b">Qiskit regression: QuantumKatas (349 tasks)</text>
+<line x1="736.0" y1="70" x2="736.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="736.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">0%</text>
+<line x1="831.0" y1="70" x2="831.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="831.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">50%</text>
+<line x1="926.0" y1="70" x2="926.0" y2="268" stroke="#e6e5e1" stroke-width="1"/>
+<text x="926.0" y="284" font-size="11" text-anchor="middle" fill="#52514e">100%</text>
+<line x1="781.2" y1="70" x2="781.2" y2="268" stroke="#52514e" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="785.2" y="300" font-size="11" fill="#52514e">base 23.8%</text>
+<path d="M736.0,74.0 H777.2 A4,4 0 0 1 781.2,78.0 V86.0 A4,4 0 0 1 777.2,90.0 H736.0 Z" fill="#2a78d6"/>
+<line x1="773.3" y1="82.0" x2="790.2" y2="82.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="796.2" y="86.0" font-size="11" fill="#0b0b0b">23.8%</text>
+<path d="M736.0,108.0 H777.2 A4,4 0 0 1 781.2,112.0 V120.0 A4,4 0 0 1 777.2,124.0 H736.0 Z" fill="#2a78d6"/>
+<line x1="773.3" y1="116.0" x2="790.2" y2="116.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="796.2" y="120.0" font-size="11" fill="#0b0b0b">23.8% (unchanged)</text>
+<path d="M736.0,142.0 H748.9 A4,4 0 0 1 752.9,146.0 V154.0 A4,4 0 0 1 748.9,158.0 H736.0 Z" fill="#2a78d6"/>
+<line x1="748.0" y1="150.0" x2="759.4" y2="150.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="787.2" y="154.0" font-size="11" fill="#0b0b0b">8.9%</text>
+<path d="M736.0,176.0 H760.9 A4,4 0 0 1 764.9,180.0 V188.0 A4,4 0 0 1 760.9,192.0 H736.0 Z" fill="#2a78d6"/>
+<line x1="758.4" y1="184.0" x2="772.7" y2="184.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="787.2" y="188.0" font-size="11" fill="#0b0b0b">15.2%</text>
+<path d="M736.0,210.0 H746.2 A4,4 0 0 1 750.2,214.0 V222.0 A4,4 0 0 1 746.2,226.0 H736.0 Z" fill="#2a78d6"/>
+<line x1="745.8" y1="218.0" x2="756.3" y2="218.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="787.2" y="222.0" font-size="11" fill="#0b0b0b">7.4%</text>
+<path d="M736.0,244.0 H770.7 A4,4 0 0 1 774.7,248.0 V256.0 A4,4 0 0 1 770.7,260.0 H736.0 Z" fill="#2a78d6"/>
+<line x1="767.3" y1="252.0" x2="783.3" y2="252.0" stroke="#52514e" stroke-width="1.5"/>
+<text x="789.3" y="256.0" font-size="11" fill="#0b0b0b">20.3%</text>
+</svg>

@@ -1,0 +1,294 @@
+{
+ "limiar_fidelidade": 0.999,
+ "geral": {
+  "n": 640,
+  "falhas_ambiente": 0,
+  "saida_valida": 0.6875,
+  "saida_valida_ic95": [
+   0.6505600714889479,
+   0.7222024216460095
+  ],
+  "pass_1": 0.6875,
+  "pass_1_ic95": [
+   0.6505600714889479,
+   0.7222024216460095
+  ],
+  "fidelidade_media_das_validas": 0.9999999999999978,
+  "status": {
+   "ok": 440,
+   "erro_compilacao": 200
+  }
+ },
+ "por_grupo": {
+  "teste_estilo": {
+   "n": 200,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.018846005918320894
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.018846005918320894
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 200
+   }
+  },
+  "teste_estilo/aleatorio": {
+   "n": 47,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    6.938893903907228e-18,
+    0.0755601711983887
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    6.938893903907228e-18,
+    0.0755601711983887
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 47
+   }
+  },
+  "teste_estilo/ghz": {
+   "n": 14,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.21531701192718142
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.21531701192718142
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 14
+   }
+  },
+  "teste_estilo/grover": {
+   "n": 12,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.2425007574992425
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.2425007574992425
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 12
+   }
+  },
+  "teste_estilo/hea": {
+   "n": 100,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.03699480747600191
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.03699480747600191
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 100
+   }
+  },
+  "teste_estilo/qft": {
+   "n": 15,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.20388926630434784
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.20388926630434784
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 15
+   }
+  },
+  "teste_estilo/w": {
+   "n": 12,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.2425007574992425
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.2425007574992425
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 12
+   }
+  },
+  "teste_estrutura": {
+   "n": 200,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 1.0,
+   "status": {
+    "ok": 200
+   }
+  },
+  "teste_estrutura/hea": {
+   "n": 200,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 1.0,
+   "status": {
+    "ok": 200
+   }
+  },
+  "teste_tamanho": {
+   "n": 240,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.9842455102000642,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.9842455102000642,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.999999999999996,
+   "status": {
+    "ok": 240
+   }
+  },
+  "teste_tamanho/aleatorio": {
+   "n": 120,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.9689797289440706,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.9689797289440706,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999993,
+   "status": {
+    "ok": 120
+   }
+  },
+  "teste_tamanho/ghz": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999996,
+   "status": {
+    "ok": 30
+   }
+  },
+  "teste_tamanho/grover": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999738,
+   "status": {
+    "ok": 30
+   }
+  },
+  "teste_tamanho/qft": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999979,
+   "status": {
+    "ok": 30
+   }
+  },
+  "teste_tamanho/w": {
+   "n": 30,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.8864829086095221,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999998,
+   "status": {
+    "ok": 30
+   }
+  }
+ }
+}

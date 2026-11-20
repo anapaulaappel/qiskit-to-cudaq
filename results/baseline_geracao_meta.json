@@ -1,0 +1,16 @@
+{
+ "nome": "baseline",
+ "motor": "vllm",
+ "vllm": "0.24.0+rhaiv.13",
+ "modelo_servido": "nemotron",
+ "url": "http://vllm-nemotron.quantum-finetune.svc:8000",
+ "k": 1,
+ "max_tokens": 1024,
+ "parada_ids": [
+  2,
+  11
+ ],
+ "concorrencia": 1,
+ "tokenizer": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+ "enable_thinking": false
+}

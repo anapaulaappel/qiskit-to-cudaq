@@ -1,0 +1,85 @@
+# Second base model for the comparison (zero-shot and 4-shot only; no fine-tuning), same vLLM image
+# and settings as k8s/vllm-nemotron.yaml, 1 GPU L4. Its own PVC so the Nemotron cache stays intact.
+#
+# Model: Qwen2.5-Coder-7B-Instruct (Apache-2.0, ~15 GB in BF16, fits an L4 with max-model-len 8192).
+# To compare another model, change the model id and --served-model-name below.
+#
+# Apply:   oc apply -f k8s/vllm-base2.yaml
+# Use:     VLLM_URL=http://vllm-base2.quantum-finetune.svc:8000 python eval/gerar_vllm.py \
+#            --nome qwen_zeroshot --modelo-servido base2 --tokenizer Qwen/Qwen2.5-Coder-7B-Instruct --tipo traducao
+#          (add --fewshot 4 for the 4-shot run; the Katas can be generated too, without --tipo)
+# Remove:  oc delete -f k8s/vllm-base2.yaml
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: vllm-base2-cache
+  namespace: quantum-finetune
+  labels: {app: vllm-base2}
+spec:
+  accessModes: [ReadWriteOnce]
+  resources: {requests: {storage: 40Gi}}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vllm-base2
+  namespace: quantum-finetune
+  labels: {app: vllm-base2}
+spec:
+  replicas: 1
+  strategy: {type: Recreate}
+  selector: {matchLabels: {app: vllm-base2}}
+  template:
+    metadata:
+      labels: {app: vllm-base2}
+    spec:
+      containers:
+      - name: vllm
+        image: registry.redhat.io/rhaii/vllm-cuda-rhel9@sha256:c056e61672b6aea489ad5dde0bd2f8497230f5333e87f7cf6c494eba3bfdc808
+        command: ["vllm", "serve"]
+        args:
+        - Qwen/Qwen2.5-Coder-7B-Instruct
+        - --served-model-name=base2
+        - --dtype=bfloat16
+        - --max-model-len=8192
+        - --gpu-memory-utilization=0.90
+        - --seed=20261104
+        - --port=8000
+        env:
+        - {name: HF_HOME, value: /cache/hf}
+        - {name: HF_HUB_OFFLINE, value: "0"}
+        - {name: TRANSFORMERS_OFFLINE, value: "0"}
+        - {name: HF_HUB_CACHE, value: /cache/hf/hub}
+        ports: [{containerPort: 8000, name: http}]
+        resources:
+          requests: {cpu: "4", memory: 24Gi, nvidia.com/gpu: "1"}
+          limits: {cpu: "8", memory: 32Gi, nvidia.com/gpu: "1"}
+        readinessProbe:
+          httpGet: {path: /health, port: 8000}
+          periodSeconds: 10
+          failureThreshold: 3
+        startupProbe:
+          httpGet: {path: /health, port: 8000}
+          periodSeconds: 15
+          failureThreshold: 120
+        volumeMounts:
+        - {name: cache, mountPath: /cache}
+        - {name: shm, mountPath: /dev/shm}
+      volumes:
+      - name: cache
+        persistentVolumeClaim: {claimName: vllm-base2-cache}
+      - name: shm
+        emptyDir: {medium: Memory, sizeLimit: 2Gi}
+      tolerations:
+      - {key: nvidia.com/gpu, operator: Exists, effect: NoSchedule}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vllm-base2
+  namespace: quantum-finetune
+  labels: {app: vllm-base2}
+spec:
+  selector: {app: vllm-base2}
+  ports: [{name: http, port: 8000, targetPort: 8000}]

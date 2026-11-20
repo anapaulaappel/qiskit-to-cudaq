@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+NVIDIA_trilha_quantum.pdf
+data/katas/
+DOCUMENTO.md
+.venv-treino/
+data/tarefas_modelo.jsonl
+data/saidas/
+runs/
+.hf/
+ENTREVISTA.md
+STATUS.md
+TODO_artigo.md
+paper/
+results/backup_cluster/

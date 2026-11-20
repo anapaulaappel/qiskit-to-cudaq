@@ -1,0 +1,566 @@
+{
+ "antes": "finetuned",
+ "depois": "estilos",
+ "traducao": {
+  "teste_estilo": {
+   "equivalencia": {
+    "n": 200,
+    "antes": 0.485,
+    "antes_ic95": [
+     0.4166726249238525,
+     0.5538927552536972
+    ],
+    "depois": 0.53,
+    "depois_ic95": [
+     0.46091557335361155,
+     0.5979536662912893
+    ],
+    "so_antes": 15,
+    "so_depois": 24,
+    "mcnemar_p": 0.19959086691960692
+   },
+   "valida": {
+    "n": 200,
+    "antes": 0.495,
+    "antes_ic95": [
+     0.4264572195415849,
+     0.5637312405175983
+    ],
+    "depois": 0.545,
+    "depois_ic95": [
+     0.4757848503696115,
+     0.6125190090977398
+    ],
+    "so_antes": 16,
+    "so_depois": 26,
+    "mcnemar_p": 0.16414940178310644
+   }
+  },
+  "teste_estilo/aleatorio": {
+   "equivalencia": {
+    "n": 47,
+    "antes": 0.3617021276595745,
+    "antes_ic95": [
+     0.2396602228576844,
+     0.5046436542822955
+    ],
+    "depois": 0.44680851063829785,
+    "depois_ic95": [
+     0.31410747474911305,
+     0.5875478626124176
+    ],
+    "so_antes": 5,
+    "so_depois": 9,
+    "mcnemar_p": 0.4239501953125
+   },
+   "valida": {
+    "n": 47,
+    "antes": 0.3617021276595745,
+    "antes_ic95": [
+     0.2396602228576844,
+     0.5046436542822955
+    ],
+    "depois": 0.44680851063829785,
+    "depois_ic95": [
+     0.31410747474911305,
+     0.5875478626124176
+    ],
+    "so_antes": 5,
+    "so_depois": 9,
+    "mcnemar_p": 0.4239501953125
+   }
+  },
+  "teste_estilo/ghz": {
+   "equivalencia": {
+    "n": 14,
+    "antes": 0.7857142857142857,
+    "antes_ic95": [
+     0.5241027622679172,
+     0.9242875166308363
+    ],
+    "depois": 0.5,
+    "depois_ic95": [
+     0.2679886791947528,
+     0.7320113208052472
+    ],
+    "so_antes": 4,
+    "so_depois": 0,
+    "mcnemar_p": 0.125
+   },
+   "valida": {
+    "n": 14,
+    "antes": 0.8571428571428571,
+    "antes_ic95": [
+     0.600580922361363,
+     0.9599069262620787
+    ],
+    "depois": 0.5,
+    "depois_ic95": [
+     0.2679886791947528,
+     0.7320113208052472
+    ],
+    "so_antes": 5,
+    "so_depois": 0,
+    "mcnemar_p": 0.0625
+   }
+  },
+  "teste_estilo/grover": {
+   "equivalencia": {
+    "n": 12,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.7574992425007574,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.7574992425007574,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 12,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.7574992425007574,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.7574992425007574,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_estilo/hea": {
+   "equivalencia": {
+    "n": 100,
+    "antes": 0.4,
+    "antes_ic95": [
+     0.3093997461136028,
+     0.4979992153815976
+    ],
+    "depois": 0.47,
+    "depois_ic95": [
+     0.3751065198210374,
+     0.5671131686275227
+    ],
+    "so_antes": 4,
+    "so_depois": 11,
+    "mcnemar_p": 0.11846923828125
+   },
+   "valida": {
+    "n": 100,
+    "antes": 0.41,
+    "antes_ic95": [
+     0.31867157095664655,
+     0.5079874943890338
+    ],
+    "depois": 0.49,
+    "depois_ic95": [
+     0.3942183009238615,
+     0.5865215952256586
+    ],
+    "so_antes": 4,
+    "so_depois": 12,
+    "mcnemar_p": 0.076812744140625
+   }
+  },
+  "teste_estilo/qft": {
+   "equivalencia": {
+    "n": 15,
+    "antes": 0.8,
+    "antes_ic95": [
+     0.5481406466534955,
+     0.9295257935638959
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.7961107336956521,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 3,
+    "mcnemar_p": 0.25
+   },
+   "valida": {
+    "n": 15,
+    "antes": 0.8,
+    "antes_ic95": [
+     0.5481406466534955,
+     0.9295257935638959
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.7961107336956521,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 3,
+    "mcnemar_p": 0.25
+   }
+  },
+  "teste_estilo/w": {
+   "equivalencia": {
+    "n": 12,
+    "antes": 0.4166666666666667,
+    "antes_ic95": [
+     0.19325746190524656,
+     0.6804926643446272
+    ],
+    "depois": 0.3333333333333333,
+    "depois_ic95": [
+     0.13811783989736134,
+     0.609382412602386
+    ],
+    "so_antes": 2,
+    "so_depois": 1,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 12,
+    "antes": 0.4166666666666667,
+    "antes_ic95": [
+     0.19325746190524656,
+     0.6804926643446272
+    ],
+    "depois": 0.4166666666666667,
+    "depois_ic95": [
+     0.19325746190524656,
+     0.6804926643446272
+    ],
+    "so_antes": 2,
+    "so_depois": 2,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_estrutura": {
+   "equivalencia": {
+    "n": 200,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 200,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_estrutura/hea": {
+   "equivalencia": {
+    "n": 200,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 200,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9811539940816791,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_tamanho": {
+   "equivalencia": {
+    "n": 240,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9842455102000642,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9842455102000642,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 240,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9842455102000642,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9842455102000642,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_tamanho/aleatorio": {
+   "equivalencia": {
+    "n": 120,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9689797289440706,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9689797289440706,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 120,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.9689797289440706,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.9689797289440706,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_tamanho/ghz": {
+   "equivalencia": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_tamanho/grover": {
+   "equivalencia": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_tamanho/qft": {
+   "equivalencia": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "teste_tamanho/w": {
+   "equivalencia": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   },
+   "valida": {
+    "n": 30,
+    "antes": 1.0,
+    "antes_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "depois": 1.0,
+    "depois_ic95": [
+     0.8864829086095221,
+     1.0
+    ],
+    "so_antes": 0,
+    "so_depois": 0,
+    "mcnemar_p": 1.0
+   }
+  },
+  "todas": {
+   "equivalencia": {
+    "n": 640,
+    "antes": 0.8390625,
+    "antes_ic95": [
+     0.8085821928473347,
+     0.8654966489050469
+    ],
+    "depois": 0.853125,
+    "depois_ic95": [
+     0.8235939130930962,
+     0.878442115644407
+    ],
+    "so_antes": 15,
+    "so_depois": 24,
+    "mcnemar_p": 0.19959086691960692
+   },
+   "valida": {
+    "n": 640,
+    "antes": 0.8421875,
+    "antes_ic95": [
+     0.8119112729350086,
+     0.8683802770362887
+    ],
+    "depois": 0.8578125,
+    "depois_ic95": [
+     0.8286162100394209,
+     0.8827388810264561
+    ],
+    "so_antes": 16,
+    "so_depois": 26,
+    "mcnemar_p": 0.16414940178310644
+   }
+  }
+ },
+ "katas": {
+  "n": 349,
+  "antes": 0.08882521489971347,
+  "antes_ic95": [
+   0.06328138957082852,
+   0.12332245759458507
+  ],
+  "depois": 0.07449856733524356,
+  "depois_ic95": [
+   0.05134374001045554,
+   0.10691877778789928
+  ],
+  "so_antes": 5,
+  "so_depois": 0,
+  "mcnemar_p": 0.0625
+ }
+}
