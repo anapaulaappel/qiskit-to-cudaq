@@ -1,0 +1,79 @@
+{
+ "nota": "Pass@1 (equivalência de estado, fidelidade >= 0,999), mesmas 640 traduções e 349 Katas. finetuned = LoRA semente 0. GRPO = piloto de 200 passos a partir do LoRA semente 0.",
+ "traducao_total": {
+  "finetuned": 83.9,
+  "seed1": 82.5,
+  "seed2": 80.2,
+  "grpo": 86.9,
+  "fewshot": 83.1
+ },
+ "estilo_novo_200": {
+  "finetuned": 48.5,
+  "seed1": 45.0,
+  "seed2": 37.0,
+  "grpo": 59.5,
+  "fewshot": 65.5
+ },
+ "idiomas_append_funcao_120": {
+  "finetuned": 27.5,
+  "seed1": 29.2,
+  "seed2": 15.8,
+  "grpo": 35.8,
+  "estilos_A": 21.7,
+  "fewshot": 59.2
+ },
+ "katas_349": {
+  "finetuned": 8.9,
+  "seed1": 6.9,
+  "seed2": 7.4,
+  "grpo": 8.6,
+  "base": 23.8
+ },
+ "grpo_vs_finetuned_mcnemar": {
+  "todas": {
+   "ganha": 24,
+   "perde": 5,
+   "p": 0.0005
+  },
+  "estilo_novo": {
+   "ganha": 24,
+   "perde": 2,
+   "p": "<0.0001"
+  }
+ },
+ "sementes_lora_media_dp": {
+  "total": [
+   82.2,
+   1.9
+  ],
+  "estilo_novo": [
+   43.5,
+   5.9
+  ],
+  "katas": [
+   7.7,
+   1.0
+  ]
+ },
+ "segundo_modelo_base": {
+  "modelo": "Qwen/Qwen2.5-Coder-7B-Instruct (vLLM, concorrência 8)",
+  "zero_shot": {
+   "traducao_total": 0.0,
+   "katas": 30.9,
+   "nota": "sem conhecimento de CUDA-Q: 606/640 com erro de sintaxe (texto, cuQuantum, Cirq)"
+  },
+  "fewshot_4": {
+   "traducao_total": 82.8,
+   "tamanho": 83.3,
+   "estrutura": 100.0,
+   "estilo_novo": 65.0,
+   "idiomas_append_funcao": 54.2
+  },
+  "comparacao_nemotron_4shot": {
+   "traducao_total": 83.1,
+   "estilo_novo": 65.5,
+   "idiomas_append_funcao": 59.2,
+   "katas_base": 23.8
+  }
+ }
+}

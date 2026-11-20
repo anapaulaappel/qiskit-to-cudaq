@@ -119,6 +119,179 @@
    "outro_estado": "estilo_ee97ceb9cb3bd733"
   }
  },
+ "seed1": {
+  "falhas": 112,
+  "categorias": {
+   "idioma_qiskit": 35,
+   "porta_inventada": 19,
+   "classe_qiskit": 18,
+   "outro_compilacao": 15,
+   "api_qiskit": 11,
+   "porta_faltando": 4,
+   "nome_porta_qiskit": 4,
+   "sem_codigo_cudaq": 3,
+   "indice_cru": 2,
+   "sintaxe": 1
+  },
+  "por_divisao": {
+   "teste_estrutura": {
+    "porta_faltando": 2
+   },
+   "teste_estilo": {
+    "idioma_qiskit": 35,
+    "porta_inventada": 19,
+    "classe_qiskit": 18,
+    "outro_compilacao": 15,
+    "api_qiskit": 11,
+    "nome_porta_qiskit": 4,
+    "sem_codigo_cudaq": 3,
+    "indice_cru": 2,
+    "porta_faltando": 2,
+    "sintaxe": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "porta_faltando": "8f60de5aff202da3",
+   "indice_cru": "estilo_dea6fa5512f14e9a",
+   "classe_qiskit": "estilo_e2046a377195b767",
+   "outro_compilacao": "estilo_c98aedacb260fecc",
+   "sem_codigo_cudaq": "estilo_6262a446c02df57e",
+   "idioma_qiskit": "estilo_7d4d3ea606420cc1",
+   "porta_inventada": "estilo_694c8e961080024a",
+   "api_qiskit": "estilo_712e98bafd761300",
+   "sintaxe": "estilo_2120e96b0357ad57",
+   "nome_porta_qiskit": "estilo_2b6c5c72082ba001"
+  }
+ },
+ "seed2": {
+  "falhas": 127,
+  "categorias": {
+   "classe_qiskit": 56,
+   "idioma_qiskit": 25,
+   "sem_codigo_cudaq": 14,
+   "indice_cru": 13,
+   "sintaxe": 11,
+   "outro_compilacao": 4,
+   "porta_sobrando": 2,
+   "truncada": 1,
+   "porta_faltando": 1
+  },
+  "por_divisao": {
+   "teste_tamanho": {
+    "outro_compilacao": 1
+   },
+   "teste_estilo": {
+    "classe_qiskit": 56,
+    "idioma_qiskit": 25,
+    "sem_codigo_cudaq": 14,
+    "indice_cru": 13,
+    "sintaxe": 11,
+    "outro_compilacao": 3,
+    "porta_sobrando": 2,
+    "truncada": 1,
+    "porta_faltando": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "outro_compilacao": "de0194a51a7d5adc",
+   "indice_cru": "estilo_dea6fa5512f14e9a",
+   "sem_codigo_cudaq": "estilo_e2046a377195b767",
+   "sintaxe": "estilo_b5e09bd913fa3100",
+   "classe_qiskit": "estilo_d9440c28b2661132",
+   "idioma_qiskit": "estilo_7d4d3ea606420cc1",
+   "porta_sobrando": "estilo_e17b143dfe108deb",
+   "truncada": "estilo_5fc635c72da6b6c6",
+   "porta_faltando": "estilo_a9ea870e064197d0"
+  }
+ },
+ "grpo": {
+  "falhas": 84,
+  "categorias": {
+   "classe_qiskit": 44,
+   "porta_inventada": 12,
+   "porta_faltando": 11,
+   "outro_compilacao": 9,
+   "indice_cru": 3,
+   "ordem_ou_qubit": 2,
+   "nome_porta_qiskit": 1,
+   "sem_codigo_cudaq": 1,
+   "sintaxe": 1
+  },
+  "por_divisao": {
+   "teste_estrutura": {
+    "porta_faltando": 3
+   },
+   "teste_estilo": {
+    "classe_qiskit": 44,
+    "porta_inventada": 12,
+    "outro_compilacao": 9,
+    "porta_faltando": 8,
+    "indice_cru": 3,
+    "ordem_ou_qubit": 2,
+    "nome_porta_qiskit": 1,
+    "sem_codigo_cudaq": 1,
+    "sintaxe": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "porta_faltando": "f23f2cac41151ea5",
+   "classe_qiskit": "estilo_b7bf1e1815390309",
+   "outro_compilacao": "estilo_c98aedacb260fecc",
+   "indice_cru": "estilo_bf58e40fedb77cf4",
+   "ordem_ou_qubit": "estilo_db5442c3355cc24e",
+   "porta_inventada": "estilo_694c8e961080024a",
+   "nome_porta_qiskit": "estilo_45445c76f9b2c63a",
+   "sem_codigo_cudaq": "estilo_1c88f209cfde278f",
+   "sintaxe": "estilo_a9c61bb189a94b46"
+  }
+ },
+ "qwen_fewshot": {
+  "falhas": 110,
+  "categorias": {
+   "outro_estado": 34,
+   "nome_porta_qiskit": 24,
+   "idioma_qiskit": 14,
+   "porta_inventada": 10,
+   "classe_qiskit": 9,
+   "outro_compilacao": 7,
+   "porta_faltando": 5,
+   "porta_sobrando": 4,
+   "sem_codigo_cudaq": 2,
+   "truncada": 1
+  },
+  "por_divisao": {
+   "teste_tamanho": {
+    "outro_estado": 31,
+    "nome_porta_qiskit": 5,
+    "porta_sobrando": 2,
+    "porta_inventada": 2
+   },
+   "teste_estilo": {
+    "nome_porta_qiskit": 19,
+    "idioma_qiskit": 14,
+    "classe_qiskit": 9,
+    "porta_inventada": 8,
+    "outro_compilacao": 7,
+    "porta_faltando": 5,
+    "outro_estado": 3,
+    "sem_codigo_cudaq": 2,
+    "porta_sobrando": 2,
+    "truncada": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "nome_porta_qiskit": "e4f6fc1c2b8acaac",
+   "outro_estado": "1dc3fb36c0f8228b",
+   "porta_sobrando": "e2608bb28ea5de33",
+   "porta_inventada": "5813d95660d8331e",
+   "classe_qiskit": "estilo_d9440c28b2661132",
+   "outro_compilacao": "estilo_6f16b8231d6a0469",
+   "idioma_qiskit": "estilo_4a857619dd401324",
+   "sem_codigo_cudaq": "estilo_e008331e388df4e5",
+   "porta_faltando": "estilo_d67fd160fdb54520",
+   "truncada": "estilo_c688f6ad7ad3d692"
+  }
+ },
  "replay": {
   "falhas": 96,
   "categorias": {

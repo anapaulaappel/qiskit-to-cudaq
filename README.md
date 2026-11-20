@@ -47,11 +47,32 @@ Three variants of the training data, each with the same LoRA configuration, vali
 
 **Replay, script format.** 20% of training examples in the reverse direction (CUDA-Q → Qiskit), from training circuits. The Katas recover from 8.9% to 15.2% (27 gained, 5 lost; p = 1·10⁻⁴) at no cost to translation, but stay below the base model (p = 4·10⁻⁵). The syntax interference disappears: Katas answers containing CUDA-Q syntax go from 35% (LoRA) to 2%, and answers using `qc.<gate>(...)` from 6% to 70% (base: 0% and 78%). What remains is a format problem: of the 41 tasks the base model solved and this model fails, only 21 contain `return qc` (base: 41 of 41). The reverse examples are flat scripts with no function or `return`, and the model carried that format into the Katas. Gate-logic errors also appear, such as `qc.cz` where the base model wrote `qc.cx(control, target)`.
 
-**(A) Style variety.** 30% of training pairs rewritten with 6 idioms (replacing the originals, so the training set keeps its size), holding out `append` and `funcao` for the test. Seen idioms reach 100%; held-out idioms stay at 21.7%. Fine-tuning learns the variations it is shown and does not become more robust to new ones. Only the untouched base model with a prompt does well on idioms nobody showed it (59.2%).
+**(A) Style variety.** 30% of training pairs rewritten with 6 idioms (replacing the originals, so the training set keeps its size), holding out the `append` and helper-function (`funcao`) idioms for the test. Seen idioms reach 100%; held-out idioms stay at 21.7%. Fine-tuning learns the variations it is shown and does not become more robust to new ones. Only the untouched base model with a prompt does well on idioms nobody showed it (59.2%).
 
 **(B) Replay, function format.** 339 Qiskit examples in the Katas' format ("complete the function and return the circuit"), with docstrings that describe the gates, built from training circuits and verified by execution. The Qiskit regression closes (20.3% vs 23.8% for the base model, p = 0.10), but translation of non-canonical inputs drops to 37.0%. Most failures copy Qiskit constructs into the kernel (`barrier()`, `measure_all()`: 44 of 127) or write Qiskit API calls (`qc.`: 31); a smaller group (8) uses raw integer indices (`rx(0.38, 0)`) without allocating `cudaq.qvector`, the index style of the replay data.
 
 **Pattern across all variants:** auxiliary training data fixes the task it imitates and leaks its format into neighbouring tasks. Mitigation is a trade-off, and it has to be measured on both sides.
+
+## Robustness checks and alternatives
+
+Same 640 translations, 349 Katas, verifier and greedy decoding. Held-out idioms are the `append` and helper-function rewrites, absent from every training set.
+
+| State equivalence | All (640) | Unseen style (200) | Held-out idioms (120) | QuantumKatas (349) |
+|---|---:|---:|---:|---:|
+| Nemotron 4B, LoRA seed 0 / 1 / 2 | 83.9 / 82.5 / 80.2% | 48.5 / 45.0 / 37.0% | 27.5 / 29.2 / 15.8% | 8.9 / 6.9 / 7.4% |
+| Nemotron 4B, LoRA + style variety (A) | 85.3% | 53.0% | 21.7% | 7.4% |
+| Nemotron 4B, LoRA seed 0 + GRPO (200 steps) | **86.9%** | 59.5% | 35.8% | 8.6% |
+| Nemotron 4B, base, 4-shot | 83.1% | **65.5%** | **59.2%** | 23.8% |
+| Qwen2.5-Coder 7B, base, zero-shot | 0% | 0% | 0% | **30.9%** |
+| Qwen2.5-Coder 7B, base, 4-shot | 82.8% | 65.0% | 54.2% | 30.9% |
+
+- **Seeds.** Overall 82.2% ± 1.9 points; unseen style 43.5% ± 5.9. Generalization to new idioms depends on the seed, but the gap to the prompt is larger than the spread.
+- **Second base model.** Qwen2.5-Coder 7B does not know CUDA-Q either (0% zero-shot) and, with the same four examples, ties Nemotron. It knows more Qiskit (30.9% on the Katas). These two runs used 8 concurrent requests, so their greedy outputs are not exactly reproducible.
+- **Prompt sensitivity.** Two more 4-example sets of the same composition: 81.9% and 48.3%. The weak set has no `rx`/`ry`, and the model then scores 0% on the W family.
+- **GEPA prompt optimization** (`eval/gepa_otimiza.py`). From zero-shot it never leaves a score of zero; from the weak example set it improves the validation score (0.73 → 0.89, graded) but not the test sets (43.6% vs 44.8%).
+- **GRPO pilot** (`train/grpo_piloto.py`). Continues the seed-0 adapter with the verifier as reward (graded: 1 equivalent, 0.1 + 0.4·fidelity if it runs) on variant A's prompts, 200 steps, 2.5 h on one L4. It is the first weight update that improves held-out idioms (35.8% vs 21.7% for A; 24 gained, 2 lost on the unseen style vs its starting point, p < 10⁻⁴), with no further loss on the Katas. Still below the 4-shot prompt on new idioms, and the Qiskit regression stays.
+
+Summary in `results/resumo_sementes_grpo.json`; failure categories for every model in `results/taxonomia_erros.json` (`eval/taxonomia.py`).
 
 ## Why this task
 
@@ -129,17 +150,18 @@ Two findings shaped this setup:
 - Up to 7 qubits, in simulation, with a fixed gate set. No mid-circuit measurement, no kernel arguments, no classical control flow.
 - Calibration holds for the versions and target listed above.
 - The 0.999 threshold lets very small differences through, as the negative control shows (3 of 503).
-- The style test covers eight idioms I chose; real code is more varied. The rules' 0% on it reflects a translator written for the canonical style.
-- One base model, one LoRA configuration, no hyperparameter search. The validation set comes from the training distribution and only selects the checkpoint.
+- The style test covers eight idioms chosen by the author; real code is more varied. The rules' 0% on it reflects a translator written for the canonical style.
+- Training on one base model (a second one, Qwen2.5-Coder 7B, only prompted), one LoRA configuration, no hyperparameter search; three seeds show several points of spread on the unseen style. The validation set comes from the training distribution and only selects the checkpoint.
 - Changing the inference engine changes exact outputs (3 tasks compared between transformers and vLLM: 1 identical, 2 diverged at some point with the same content), so both runs use the same engine.
-- The few-shot baseline uses one fixed set of four examples; other choices of examples could score differently.
+- The few-shot baseline uses fixed sets of four examples; one of the three sets tested scored much lower.
+- GEPA and GRPO were run once each, with small budgets.
 
 ## Next steps
 
 1. Mix both replay formats (script and function) and check whether the two leaks cancel.
 2. LoRA plus a short prompt, to combine the adapter's exactness with the base model's robustness.
-3. RL with fidelity as a verifiable reward.
-4. Other base models, and larger circuits with mid-circuit measurement and kernel arguments.
+3. Longer RL with the verifier as reward, without partial credit for code that runs but prepares the wrong state.
+4. Larger circuits with mid-circuit measurement and kernel arguments.
 
 ## Reproducing
 
