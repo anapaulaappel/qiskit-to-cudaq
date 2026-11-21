@@ -292,6 +292,47 @@
    "truncada": "estilo_c688f6ad7ad3d692"
   }
  },
+ "misto": {
+  "falhas": 100,
+  "categorias": {
+   "idioma_qiskit": 47,
+   "porta_inventada": 28,
+   "outro_compilacao": 7,
+   "porta_faltando": 6,
+   "sintaxe": 6,
+   "porta_sobrando": 4,
+   "indice_cru": 1,
+   "nome_porta_qiskit": 1
+  },
+  "por_divisao": {
+   "teste_tamanho": {
+    "outro_compilacao": 1
+   },
+   "teste_estrutura": {
+    "porta_faltando": 5
+   },
+   "teste_estilo": {
+    "idioma_qiskit": 47,
+    "porta_inventada": 28,
+    "outro_compilacao": 6,
+    "sintaxe": 6,
+    "porta_sobrando": 4,
+    "porta_faltando": 1,
+    "indice_cru": 1,
+    "nome_porta_qiskit": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "outro_compilacao": "de0194a51a7d5adc",
+   "porta_faltando": "86e6fcd2b1787423",
+   "idioma_qiskit": "estilo_15ead949e4dbb1ec",
+   "porta_sobrando": "estilo_5813d95660d8331e",
+   "porta_inventada": "estilo_694c8e961080024a",
+   "sintaxe": "estilo_2120e96b0357ad57",
+   "indice_cru": "estilo_d67fd160fdb54520",
+   "nome_porta_qiskit": "estilo_a9c61bb189a94b46"
+  }
+ },
  "replay": {
   "falhas": 96,
   "categorias": {

@@ -1,0 +1,535 @@
+{
+ "limiar_fidelidade": 0.999,
+ "geral": {
+  "n": 27,
+  "falhas_ambiente": 0,
+  "saida_valida": 0.07407407407407407,
+  "saida_valida_ic95": [
+   0.020554221697383523,
+   0.2336997729073062
+  ],
+  "pass_1": 0.0,
+  "pass_1_ic95": [
+   6.938893903907228e-18,
+   0.12455903714463581
+  ],
+  "fidelidade_media_das_validas": 0.01953124999999993,
+  "status": {
+   "erro_compilacao": 19,
+   "erro_sintaxe": 6,
+   "ok": 2
+  }
+ },
+ "por_familia": {
+  "bernstein_vazirani": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 4
+   }
+  },
+  "deutsch_jozsa": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.5,
+   "saida_valida_ic95": [
+    0.15003570882017148,
+    0.8499642911798285
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "fidelidade_media_das_validas": 0.01953124999999993,
+   "status": {
+    "erro_sintaxe": 1,
+    "ok": 2,
+    "erro_compilacao": 1
+   }
+  },
+  "grover": {
+   "n": 3,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.5615060804490177
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.5615060804490177
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_sintaxe": 3
+   }
+  },
+  "hidden_shift": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 4
+   }
+  },
+  "phase_estimation": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 3,
+    "erro_sintaxe": 1
+   }
+  },
+  "qft": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_sintaxe": 1,
+    "erro_compilacao": 3
+   }
+  },
+  "qft_method2": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.48990002040399916
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_compilacao": 4
+   }
+  }
+ },
+ "por_tarefa": [
+  {
+   "id": "qedc_00_bernstein_vazirani_4",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_01_deutsch_jozsa_4",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_02_phase_estimation_4",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_03_bernstein_vazirani_5",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_04_deutsch_jozsa_5",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.031249999999999906
+    }
+   ]
+  },
+  {
+   "id": "qedc_05_phase_estimation_5",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_06_bernstein_vazirani_6",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_07_deutsch_jozsa_6",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_08_phase_estimation_6",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_09_bernstein_vazirani_7",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_10_deutsch_jozsa_7",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": false,
+     "fidelidade": 0.007812499999999957
+    }
+   ]
+  },
+  {
+   "id": "qedc_11_phase_estimation_7",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_12_qft_3",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_13_qft_method2_3",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_14_qft_4",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_15_qft_method2_4",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_16_qft_5",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_17_qft_method2_5",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_18_qft_6",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_19_qft_method2_6",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_20_hidden_shift_4",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_21_hidden_shift_4",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_22_hidden_shift_6",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_23_hidden_shift_6",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_24_grover_3",
+   "divisao": "teste_qedc",
+   "familia": "grover",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_25_grover_4",
+   "divisao": "teste_qedc",
+   "familia": "grover",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "qedc_26_grover_5",
+   "divisao": "teste_qedc",
+   "familia": "grover",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  }
+ ]
+}

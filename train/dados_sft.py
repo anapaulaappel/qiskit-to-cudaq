@@ -100,6 +100,17 @@ def main():
         grava("sft_treino_funcao.jsonl", com_funcao)
         print(f"treino com replay de função {len(com_funcao)} ({len(funcoes)} funções)")
 
+        # Replay misto (21/11): metade dos inversos (script) + metade das funções, mesmo total de replay
+        # (20%) que os dois experimentos anteriores. Mesmos exemplos já usados neles, nada de Katas ou teste.
+        inversos = [l for l in com_replay if l["id"].startswith("inv_")]
+        funcs = [l for l in com_funcao if l["id"] in {f["id"] for f in funcoes}]
+        rng = random.Random(SEMENTE + 4)
+        meio_i, meio_f = len(inversos) // 2, len(funcs) - len(inversos) // 2
+        misto = treino + rng.sample(inversos, meio_i) + rng.sample(funcs, meio_f)
+        rng.shuffle(misto)
+        grava("sft_treino_replay_misto.jsonl", misto)
+        print(f"treino com replay misto {len(misto)} ({meio_i} inversos, {meio_f} funções)")
+
 
 if __name__ == "__main__":
     main()

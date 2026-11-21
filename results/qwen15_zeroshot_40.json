@@ -1,0 +1,605 @@
+{
+ "limiar_fidelidade": 0.999,
+ "geral": {
+  "n": 40,
+  "falhas_ambiente": 0,
+  "saida_valida": 0.0,
+  "saida_valida_ic95": [
+   0.0,
+   0.08762453925039232
+  ],
+  "pass_1": 0.0,
+  "pass_1_ic95": [
+   0.0,
+   0.08762453925039232
+  ],
+  "fidelidade_media_das_validas": null,
+  "status": {
+   "erro_sintaxe": 36,
+   "erro_compilacao": 4
+  }
+ },
+ "por_familia": {
+  "aleatorio": {
+   "n": 40,
+   "falhas_ambiente": 0,
+   "saida_valida": 0.0,
+   "saida_valida_ic95": [
+    0.0,
+    0.08762453925039232
+   ],
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.08762453925039232
+   ],
+   "fidelidade_media_das_validas": null,
+   "status": {
+    "erro_sintaxe": 36,
+    "erro_compilacao": 4
+   }
+  }
+ },
+ "por_tarefa": [
+  {
+   "id": "3a1d9ce3e17d3636",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "e4f6fc1c2b8acaac",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "4bf5b305fdbd1745",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "978c61d2617d23c0",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "ff96e69ffc15f518",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "5913beb1022ec50f",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "88e579aab3eb827a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "b67ef113cdb84eba",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "74931922c76883c6",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "27a6e6dda96e859e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "deda5ded28beecc6",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "712e98bafd761300",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "7d4d3ea606420cc1",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "6e7024f4192ccb3c",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "f49ba2af55b51c76",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "47197b090938fcf8",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "42782674d36cc861",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "2cc58a78fd4c5466",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "7ac4c7db745f4b1a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "7323adf5e8b51c6e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "c75871f1c1b7354d",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "5a42ae7bbf162ecb",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "4518bff7995cf41e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "1ab136ce4cc8c135",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "fa418a933e19911d",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "d9440c28b2661132",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "5a38033a4c487a5a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "fa37254b96cca020",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "4282b30e54296001",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "df3ba986eb6d6ec3",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "d0a3d20b8dabf4e2",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "b3c89aeed141a2fa",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "dea6fa5512f14e9a",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "94a7e8affec264dd",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "5718a5e91aa1c34e",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "d25191560e6e62db",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "ff58e8a2b7baee02",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_compilacao",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "6df3ad474c5b5cb9",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "7d10857dfea4a837",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  },
+  {
+   "id": "7f9b2f6c232d0e9f",
+   "divisao": "teste_tamanho",
+   "familia": "aleatorio",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "erro_sintaxe",
+     "valido": false,
+     "equivalente": false,
+     "fidelidade": null
+    }
+   ]
+  }
+ ]
+}

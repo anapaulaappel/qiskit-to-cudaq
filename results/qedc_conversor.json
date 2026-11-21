@@ -1,0 +1,529 @@
+{
+ "limiar_fidelidade": 0.999,
+ "geral": {
+  "n": 27,
+  "falhas_ambiente": 0,
+  "saida_valida": 1.0,
+  "saida_valida_ic95": [
+   0.8754409628553641,
+   1.0
+  ],
+  "pass_1": 1.0,
+  "pass_1_ic95": [
+   0.8754409628553641,
+   1.0
+  ],
+  "fidelidade_media_das_validas": 0.9999999999999949,
+  "status": {
+   "ok": 27
+  }
+ },
+ "por_familia": {
+  "bernstein_vazirani": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999996,
+   "status": {
+    "ok": 4
+   }
+  },
+  "deutsch_jozsa": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999971,
+   "status": {
+    "ok": 4
+   }
+  },
+  "grover": {
+   "n": 3,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.43849391955098227,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.43849391955098227,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999675,
+   "status": {
+    "ok": 3
+   }
+  },
+  "hidden_shift": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999992,
+   "status": {
+    "ok": 4
+   }
+  },
+  "phase_estimation": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999994,
+   "status": {
+    "ok": 4
+   }
+  },
+  "qft": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.9999999999999966,
+   "status": {
+    "ok": 4
+   }
+  },
+  "qft_method2": {
+   "n": 4,
+   "falhas_ambiente": 0,
+   "saida_valida": 1.0,
+   "saida_valida_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.5100999795960008,
+    1.0
+   ],
+   "fidelidade_media_das_validas": 0.999999999999998,
+   "status": {
+    "ok": 4
+   }
+  }
+ },
+ "por_tarefa": [
+  {
+   "id": "qedc_00_bernstein_vazirani_4",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "qedc_01_deutsch_jozsa_4",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "qedc_02_phase_estimation_4",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "qedc_03_bernstein_vazirani_5",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "qedc_04_deutsch_jozsa_5",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999969
+    }
+   ]
+  },
+  {
+   "id": "qedc_05_phase_estimation_5",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "qedc_06_bernstein_vazirani_6",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "qedc_07_deutsch_jozsa_6",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "qedc_08_phase_estimation_6",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999998
+    }
+   ]
+  },
+  {
+   "id": "qedc_09_bernstein_vazirani_7",
+   "divisao": "teste_qedc",
+   "familia": "bernstein_vazirani",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999996
+    }
+   ]
+  },
+  {
+   "id": "qedc_10_deutsch_jozsa_7",
+   "divisao": "teste_qedc",
+   "familia": "deutsch_jozsa",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999956
+    }
+   ]
+  },
+  {
+   "id": "qedc_11_phase_estimation_7",
+   "divisao": "teste_qedc",
+   "familia": "phase_estimation",
+   "n": 7,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "qedc_12_qft_3",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999973
+    }
+   ]
+  },
+  {
+   "id": "qedc_13_qft_method2_3",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "qedc_14_qft_4",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999971
+    }
+   ]
+  },
+  {
+   "id": "qedc_15_qft_method2_4",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "qedc_16_qft_5",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999962
+    }
+   ]
+  },
+  {
+   "id": "qedc_17_qft_method2_5",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999982
+    }
+   ]
+  },
+  {
+   "id": "qedc_18_qft_6",
+   "divisao": "teste_qedc",
+   "familia": "qft",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999956
+    }
+   ]
+  },
+  {
+   "id": "qedc_19_qft_method2_6",
+   "divisao": "teste_qedc",
+   "familia": "qft_method2",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999976
+    }
+   ]
+  },
+  {
+   "id": "qedc_20_hidden_shift_4",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "qedc_21_hidden_shift_4",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999993
+    }
+   ]
+  },
+  {
+   "id": "qedc_22_hidden_shift_6",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "qedc_23_hidden_shift_6",
+   "divisao": "teste_qedc",
+   "familia": "hidden_shift",
+   "n": 6,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999991
+    }
+   ]
+  },
+  {
+   "id": "qedc_24_grover_3",
+   "divisao": "teste_qedc",
+   "familia": "grover",
+   "n": 3,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999942
+    }
+   ]
+  },
+  {
+   "id": "qedc_25_grover_4",
+   "divisao": "teste_qedc",
+   "familia": "grover",
+   "n": 4,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999856
+    }
+   ]
+  },
+  {
+   "id": "qedc_26_grover_5",
+   "divisao": "teste_qedc",
+   "familia": "grover",
+   "n": 5,
+   "amostras": [
+    {
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 0.9999999999999223
+    }
+   ]
+  }
+ ]
+}

@@ -62,7 +62,11 @@ Same 640 translations, 349 Katas, verifier and greedy decoding. Held-out idioms 
 | Nemotron 4B, LoRA seed 0 / 1 / 2 | 83.9 / 82.5 / 80.2% | 48.5 / 45.0 / 37.0% | 27.5 / 29.2 / 15.8% | 8.9 / 6.9 / 7.4% |
 | Nemotron 4B, LoRA + style variety (A) | 85.3% | 53.0% | 21.7% | 7.4% |
 | Nemotron 4B, LoRA seed 0 + GRPO (200 steps) | **86.9%** | 59.5% | 35.8% | 8.6% |
+| Nemotron 4B, LoRA seed 0 + 1-shot / 2-shot prompt | 74.8 / 78.4% | 40.0 / 46.5% | 31.7 / 43.3% | — |
+| Nemotron 4B, LoRA + mixed replay | 84.4% | 53.0% | 48.3% | 21.5% |
 | Nemotron 4B, base, 4-shot | 83.1% | **65.5%** | **59.2%** | 23.8% |
+| Qwen2.5-Coder 1.5B, base, 4-shot | 50.3% | 19.0% | 18.3% | 17.8% |
+| Qwen2.5-Coder 1.5B, LoRA | 77.8% | 29.0% | 28.3% | 5.2% |
 | Qwen2.5-Coder 7B, base, zero-shot | 0% | 0% | 0% | **30.9%** |
 | Qwen2.5-Coder 7B, base, 4-shot | 82.8% | 65.0% | 54.2% | 30.9% |
 
@@ -71,6 +75,15 @@ Same 640 translations, 349 Katas, verifier and greedy decoding. Held-out idioms 
 - **Prompt sensitivity.** Two more 4-example sets of the same composition: 81.9% and 48.3%. The weak set has no `rx`/`ry`, and the model then scores 0% on the W family.
 - **GEPA prompt optimization** (`eval/gepa_otimiza.py`). From zero-shot it never leaves a score of zero; from the weak example set it improves the validation score (0.73 → 0.89, graded) but not the test sets (43.6% vs 44.8%).
 - **GRPO pilot** (`train/grpo_piloto.py`). Continues the seed-0 adapter with the verifier as reward (graded: 1 equivalent, 0.1 + 0.4·fidelity if it runs) on variant A's prompts, 200 steps, 2.5 h on one L4. It is the first weight update that improves held-out idioms (35.8% vs 21.7% for A; 24 gained, 2 lost on the unseen style vs its starting point, p < 10⁻⁴), with no further loss on the Katas. Still below the 4-shot prompt on new idioms, and the Qiskit regression stays.
+
+- **Adapter plus examples.** One or two examples in the adapter's prompt: held-out idioms improve with two (27.5% → 43.3%, p = 0.001), but exactness on the training style is lost and the total falls (78.4%, p < 0.001).
+- **Mixed replay** (half reverse scripts, half functions; same replay share): the best trade-off, 84.4% translation and 21.5% on the Katas (base 23.8%, p = 0.31).
+- **Smaller second model with LoRA.** On Qwen2.5-Coder 1.5B, fine-tuning beats the 4-shot prompt (77.8% vs 50.3%), with the same Katas regression (17.8% → 5.2%). Served with vLLM 0.33.
+- **Coverage fix.** The weak example set with its random example replaced by one using all 12 gates: 48.3% → 71.9%.
+- **pass@5** on the 120 held-out-idiom tasks: adapter 28.3% → 37.5%, 4-shot 58.3% → 78.3%.
+- **Fidelity threshold.** At 0.99 or 0.9999 no model changes by more than one task (`eval/limiar.py`).
+- **Circuit-level converter** (`eval/linha_base_circuito.py`): executes the Qiskit input, transpiles the circuit to known gates and maps each instruction. **100% on all 640 tasks**, because every input is a static, executable circuit. The benchmark therefore measures source-level translation; a language model is only needed where execution is not available or not wanted.
+- **Real code (QED-C).** 27 tasks built from the Qiskit kernels of six QED-C benchmarks (`generate/qedc.py`, Apache-2.0 sources in `data/qedc_fonte/`). **No model translates any of them** (4-shot, LoRA, GRPO, mixed replay); the circuit-level converter translates all 27.
 
 Summary in `results/resumo_sementes_grpo.json`; failure categories for every model in `results/taxonomia_erros.json` (`eval/taxonomia.py`).
 

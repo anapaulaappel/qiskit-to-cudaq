@@ -24,8 +24,18 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 TOKENIZER = "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
 URL = os.environ.get("VLLM_URL", "http://vllm-nemotron.quantum-finetune.svc:8000")
-TAREFAS = RAIZ / "data" / "tarefas_modelo.jsonl"
+TAREFAS = RAIZ / "data" / "tarefas_modelo.jsonl"   # outro arquivo com --tarefas
 SEMENTE, MAX_TOKENS, PARADA = 20261104, 1024, [2, 11]
+
+
+def exemplos_por_id(ids):
+    """Exemplos escolhidos explicitamente (ex.: conjunto 2 com o exemplo aleatório trocado por um que
+    cobre todas as portas). Só pares do treino."""
+    pares = {json.loads(l)["id"]: json.loads(l) for l in open(RAIZ / "data" / "sft_treino.jsonl", encoding="utf8")}
+    msgs = []
+    for i in ids:
+        msgs += [pares[i]["prompt"][0], pares[i]["completion"][0]]
+    return msgs, list(ids)
 
 
 def exemplos_fewshot(n, conjunto=0):
@@ -71,6 +81,9 @@ def main():
     ap.add_argument("--conjunto-fewshot", type=int, default=0, help="qual conjunto de exemplos (0 = o da linha de base)")
     ap.add_argument("--prompt-sistema", help="arquivo com um prompt de sistema (ex.: o melhor prompt do GEPA)")
     ap.add_argument("--tokenizer", default=TOKENIZER, help="outro modelo base: o tokenizer dele (o vLLM precisa servir o mesmo)")
+    ap.add_argument("--tarefas", default=str(TAREFAS), help="arquivo de tarefas (padrão: as 640 traduções + 349 Katas)")
+    ap.add_argument("--ids", help="arquivo com um id por linha: gera só esse subconjunto")
+    ap.add_argument("--exemplos-ids", help="ids de treino separados por vírgula para o prompt few-shot (substitui --fewshot)")
     a = ap.parse_args()
 
     from transformers import AutoTokenizer
@@ -87,9 +100,14 @@ def main():
     feitas = set()
     if saida.exists():
         feitas = {json.loads(l)["id"] for l in open(saida, encoding="utf8")}
-    tarefas = [json.loads(l) for l in open(TAREFAS, encoding="utf8")]
+    tarefas = [json.loads(l) for l in open(a.tarefas, encoding="utf8")]
+    if a.ids:
+        manter = set(open(a.ids).read().split()); tarefas = [t for t in tarefas if t["id"] in manter]
     pendentes = [(i, t) for i, t in enumerate(tarefas) if t["id"] not in feitas and (not a.tipo or t["tipo"] == a.tipo)][: a.limite]
-    prefixo, ids_exemplos = exemplos_fewshot(a.fewshot, a.conjunto_fewshot) if a.fewshot else ([], [])
+    if a.exemplos_ids:
+        prefixo, ids_exemplos = exemplos_por_id(a.exemplos_ids.split(","))
+    else:
+        prefixo, ids_exemplos = exemplos_fewshot(a.fewshot, a.conjunto_fewshot) if a.fewshot else ([], [])
     sistema = Path(a.prompt_sistema).read_text(encoding="utf8").strip() if a.prompt_sistema else None
     if sistema:
         prefixo = [{"role": "system", "content": sistema}] + prefixo
@@ -99,7 +117,7 @@ def main():
     versao = get("/version").get("version")
     meta = {"nome": a.nome, "motor": "vllm", "vllm": versao, "modelo_servido": a.modelo_servido, "url": URL,
             "k": a.k, "max_tokens": MAX_TOKENS, "parada_ids": parada, "concorrencia": a.concorrencia,
-            "tokenizer": a.tokenizer, "enable_thinking": False, "fewshot": a.fewshot, "exemplos_fewshot": ids_exemplos,
+            "tokenizer": a.tokenizer, "enable_thinking": False, "fewshot": a.fewshot or len(ids_exemplos), "exemplos_fewshot": ids_exemplos, "tarefas": Path(a.tarefas).name, "ids": a.ids,
             "conjunto_fewshot": a.conjunto_fewshot, "prompt_sistema": sistema,
             "tipo": a.tipo or "todos"}
     saida.with_suffix(".meta.json").write_text(json.dumps(meta, indent=1))
