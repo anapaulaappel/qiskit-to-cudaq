@@ -321,6 +321,38 @@
    "truncada": "estilo_a289bf40f1067d13"
   }
  },
+ "qwen7_lora": {
+  "falhas": 51,
+  "categorias": {
+   "idioma_qiskit": 34,
+   "sintaxe": 11,
+   "outro_compilacao": 2,
+   "porta_faltando": 2,
+   "outro_estado": 1,
+   "porta_sobrando": 1
+  },
+  "por_divisao": {
+   "teste_estrutura": {
+    "sintaxe": 8
+   },
+   "teste_estilo": {
+    "idioma_qiskit": 34,
+    "sintaxe": 3,
+    "outro_compilacao": 2,
+    "porta_faltando": 2,
+    "outro_estado": 1,
+    "porta_sobrando": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "sintaxe": "53adf05ddf2f3f79",
+   "idioma_qiskit": "estilo_15ead949e4dbb1ec",
+   "outro_compilacao": "estilo_4a857619dd401324",
+   "outro_estado": "estilo_a55321e24402bed7",
+   "porta_faltando": "estilo_deda5ded28beecc6",
+   "porta_sobrando": "estilo_c688f6ad7ad3d692"
+  }
+ },
  "qwen_fewshot": {
   "falhas": 110,
   "categorias": {
