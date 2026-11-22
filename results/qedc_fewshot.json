@@ -15,10 +15,10 @@
   ],
   "fidelidade_media_das_validas": 0.08926892466843095,
   "status": {
-   "erro_sintaxe": 7,
+   "erro_sintaxe": 6,
    "ok": 8,
    "erro_compilacao": 11,
-   "erro_execucao": 1
+   "erro_execucao": 2
   }
  },
  "por_familia": {
@@ -37,9 +37,9 @@
    ],
    "fidelidade_media_das_validas": null,
    "status": {
-    "erro_sintaxe": 2,
+    "erro_sintaxe": 1,
     "erro_compilacao": 1,
-    "erro_execucao": 1
+    "erro_execucao": 2
    }
   },
   "deutsch_jozsa": {
@@ -289,7 +289,7 @@
    "n": 7,
    "amostras": [
     {
-     "status": "erro_sintaxe",
+     "status": "erro_execucao",
      "valido": false,
      "equivalente": false,
      "fidelidade": null

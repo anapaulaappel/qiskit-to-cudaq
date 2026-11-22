@@ -17,6 +17,7 @@ from runner import executa
 LIMIAR = 0.999
 ARQUIVOS = ("teste_tamanho", "teste_estrutura", "teste_estilo")
 BLOCO = re.compile(r"```(?:python|py)?\s*\n(.*?)```", re.S)
+BLOCO_ABERTO = re.compile(r"```(?:python|py)?\s*\n(.*?)(?:```|\Z)", re.S)   # o último pode não ter fechamento
 
 
 def wilson(k, n, z=1.96):
@@ -29,9 +30,11 @@ def wilson(k, n, z=1.96):
     return (max(0.0, meio - raio), min(1.0, meio + raio))
 
 
-def extrai_codigo(texto):
-    """Primeiro bloco cercado que tenha kernel; senão o primeiro bloco; senão o texto todo."""
-    blocos = BLOCO.findall(texto)
+def extrai_codigo(texto, truncada=None):
+    """Primeiro bloco cercado que tenha kernel; senão o primeiro bloco; senão o texto todo.
+    Bloco sem fechamento só é aproveitado quando o gerador marcou que a geração terminou normalmente
+    (truncada=False): o modelo esqueceu o fechamento. Cortada no limite de tokens, ou sem a marca, não."""
+    blocos = (BLOCO_ABERTO if truncada is False else BLOCO).findall(texto)
     return next((b for b in blocos if "cudaq" in b), blocos[0] if blocos else texto)
 
 
@@ -54,8 +57,8 @@ def referencia(tarefa):
     return Statevector(ns["qc"]).data
 
 
-def avalia_amostra(tarefa, ref, texto):
-    res, psi = executa(extrai_codigo(texto))
+def avalia_amostra(tarefa, ref, texto, truncada=None):
+    res, psi = executa(extrai_codigo(texto, truncada))
     if res["status"] == "falha_processo":
         return dict(status="falha_processo", valido=None, equivalente=None, fidelidade=None)
     if psi is None:
@@ -65,10 +68,10 @@ def avalia_amostra(tarefa, ref, texto):
 
 
 def avalia_tarefa(par):
-    tarefa, amostras = par
+    tarefa, amostras, truncadas = par
     ref = referencia(tarefa)
     return dict(id=tarefa["id"], divisao=tarefa["divisao"], familia=tarefa["familia"], n=tarefa["n"],
-                amostras=[avalia_amostra(tarefa, ref, a) for a in amostras])
+                amostras=[avalia_amostra(tarefa, ref, a, tr) for a, tr in zip(amostras, truncadas)])
 
 
 def resume(linhas):
@@ -95,8 +98,8 @@ def avalia(saidas):
     faltando = set(tarefas) - {s["id"] for s in saidas}
     if faltando:
         raise ValueError(f"{len(faltando)} tarefas sem saída: uma avaliação parcial não é comparável")
-    pares = [(tarefas[s["id"]], s["amostras"]) for s in saidas]
-    with cf.ThreadPoolExecutor(8) as ex:
+    pares = [(tarefas[s["id"]], s["amostras"], s.get("truncadas") or [None] * len(s["amostras"])) for s in saidas]
+    with cf.ThreadPoolExecutor(4) as ex:   # 4 x LIMITE_MEM_MB do runner cabe com folga em 36 GB
         linhas = list(ex.map(avalia_tarefa, pares))
     grupos = defaultdict(list)
     for l in linhas:

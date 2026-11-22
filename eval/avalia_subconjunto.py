@@ -27,8 +27,9 @@ if a.ids:
 S = {json.loads(l)["id"]: json.loads(l) for l in open(a.saidas, encoding="utf8")}
 falta = set(T) - set(S)
 assert not falta, f"{len(falta)} tarefas sem saída"
-with cf.ThreadPoolExecutor(8) as ex:
-    linhas = list(ex.map(avalia_tarefa, [(T[i], S[i]["amostras"]) for i in T]))
+with cf.ThreadPoolExecutor(4) as ex:   # 4 x LIMITE_MEM_MB do runner cabe com folga em 36 GB
+    linhas = list(ex.map(avalia_tarefa, [(T[i], S[i]["amostras"], S[i].get("truncadas") or [None] * len(S[i]["amostras"]))
+                                         for i in T]))
 g = defaultdict(list)
 for l in linhas: g[l["familia"]].append(l)
 out = dict(limiar_fidelidade=LIMIAR, geral=resume(linhas), por_familia={k: resume(v) for k, v in sorted(g.items())}, por_tarefa=linhas)

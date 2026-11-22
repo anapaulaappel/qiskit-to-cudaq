@@ -86,8 +86,9 @@ def avalia(saidas):
     faltando = set(tarefas) - {s["id"] for s in saidas}
     if faltando:
         raise ValueError(f"{len(faltando)} tarefas sem saída")
-    pares = [(tarefas[s["id"]], extrai_codigo(s["amostras"][0])) for s in saidas if s["id"] in tarefas]
-    with cf.ThreadPoolExecutor(8) as ex:
+    pares = [(tarefas[s["id"]], extrai_codigo(s["amostras"][0], (s.get("truncadas") or [None])[0]))
+             for s in saidas if s["id"] in tarefas]
+    with cf.ThreadPoolExecutor(4) as ex:
         res = list(ex.map(lambda x: (x[0]["task_id"], roda(x[1], x[0]["test"])), pares))
     medidas = [(t, s) for t, s in res if s != "falha_processo"]
     k, n = sum(s == "passou" for _, s in medidas), len(medidas)

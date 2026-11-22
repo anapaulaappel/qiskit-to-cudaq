@@ -24,8 +24,8 @@ def ref(t, args):
 
 
 def avalia(par):
-    t, texto = par
-    res, estados = executa_args(extrai_codigo(texto), t["args"])
+    t, texto, truncada = par
+    res, estados = executa_args(extrai_codigo(texto, truncada), t["args"])
     if estados is None:
         return dict(id=t["id"], familia=t["familia"], status=res["status"], valido=False, equivalente=False, por_conjunto=[])
     f = [fidelidade(e, ref(t, a)) if e.size == 2 ** a[0] else 0.0 for e, a in zip(estados, t["args"])]
@@ -43,10 +43,11 @@ def resume(L):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("saidas"); ap.add_argument("--resultado", required=True)
     a = ap.parse_args()
-    T = tarefas(); S = {json.loads(l)["id"]: json.loads(l)["amostras"][0] for l in open(a.saidas, encoding="utf8")}
+    T = tarefas(); S = {(d := json.loads(l))["id"]: (d["amostras"][0], (d.get("truncadas") or [None])[0])
+                        for l in open(a.saidas, encoding="utf8")}
     assert set(T) <= set(S), "faltam saídas"
-    with cf.ThreadPoolExecutor(6) as ex:
-        L = list(ex.map(avalia, [(T[i], S[i]) for i in T]))
+    with cf.ThreadPoolExecutor(4) as ex:   # 4 x LIMITE_MEM_MB do runner cabe com folga em 36 GB
+        L = list(ex.map(avalia, [(T[i], *S[i]) for i in T]))
     g = defaultdict(list)
     for l in L: g[l["familia"]].append(l)
     out = dict(limiar=LIMIAR, geral=resume(L), por_familia={k: resume(v) for k, v in sorted(g.items())}, por_tarefa=L)

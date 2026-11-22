@@ -65,7 +65,7 @@ Same 640 translations, 349 Katas, verifier and greedy decoding. Held-out idioms 
 | Nemotron 4B, LoRA seed 0 + 1-shot / 2-shot prompt | 74.8 / 78.4% | 40.0 / 46.5% | 31.7 / 43.3% | — |
 | Nemotron 4B, LoRA + mixed replay | 84.4% | 53.0% | 48.3% | 21.5% |
 | Nemotron 4B, base, 4-shot | 83.1% | **65.5%** | **59.2%** | 23.8% |
-| Qwen2.5-Coder 1.5B, base, 4-shot | 50.3% | 19.0% | 18.3% | 17.8% |
+| Qwen2.5-Coder 1.5B, base, 4-shot | 50.5% | 19.5% | 19.2% | 17.8% |
 | Qwen2.5-Coder 1.5B, LoRA | 77.8% | 29.0% | 28.3% | 5.2% |
 | Qwen2.5-Coder 7B, base, zero-shot | 0% | 0% | 0% | **32.4%** |
 | Qwen2.5-Coder 7B, base, 4-shot | 82.8% | 65.0% | 54.2% | 32.4% |
@@ -79,7 +79,7 @@ Same 640 translations, 349 Katas, verifier and greedy decoding. Held-out idioms 
 
 - **Adapter plus examples.** One or two examples in the adapter's prompt: held-out idioms improve with two (27.5% → 43.3%, p = 0.001), but exactness on the training style is lost and the total falls (78.4%, p < 0.001).
 - **Mixed replay** (half reverse scripts, half functions; same replay share): the best trade-off, 84.4% translation and 21.5% on the Katas (base 23.8%, p = 0.31).
-- **Smaller second model with LoRA.** On Qwen2.5-Coder 1.5B, fine-tuning beats the 4-shot prompt (77.8% vs 50.3%), with the same Katas regression (17.8% → 5.2%). Served with vLLM 0.33.
+- **Smaller second model with LoRA.** On Qwen2.5-Coder 1.5B, fine-tuning beats the 4-shot prompt (77.8% vs 50.5%), with the same Katas regression (17.8% → 5.2%). Served with vLLM 0.33.
 - **Coverage fix.** The weak example set with its random example replaced by one using all 12 gates: 48.3% → 71.9%.
 - **pass@5** on the 120 held-out-idiom tasks: adapter 28.3% → 37.5%, 4-shot 58.3% → 78.3%.
 - **Fidelity threshold.** At 0.99 or 0.9999 no model changes by more than one task (`eval/limiar.py`).

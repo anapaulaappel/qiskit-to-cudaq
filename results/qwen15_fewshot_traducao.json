@@ -3,22 +3,22 @@
  "geral": {
   "n": 640,
   "falhas_ambiente": 0,
-  "saida_valida": 0.6578125,
+  "saida_valida": 0.659375,
   "saida_valida_ic95": [
-   0.6202108377995145,
-   0.6935309272557414
+   0.6218041278241223,
+   0.6950439913405916
   ],
-  "pass_1": 0.503125,
+  "pass_1": 0.5046875,
   "pass_1_ic95": [
-   0.46448494395106255,
-   0.5417277642678535
+   0.4660390583330625,
+   0.5432800039953114
   ],
-  "fidelidade_media_das_validas": 0.8042597788810257,
+  "fidelidade_media_das_validas": 0.8047236182675636,
   "status": {
-   "ok": 421,
+   "ok": 422,
    "erro_compilacao": 208,
-   "timeout": 1,
-   "erro_sintaxe": 7,
+   "memoria": 1,
+   "erro_sintaxe": 6,
    "erro_execucao": 3
   }
  },
@@ -26,21 +26,21 @@
   "teste_estilo": {
    "n": 200,
    "falhas_ambiente": 0,
-   "saida_valida": 0.245,
+   "saida_valida": 0.25,
    "saida_valida_ic95": [
-    0.19056777914685893,
-    0.3090436838714848
+    0.19508076816296532,
+    0.3143422347961952
    ],
-   "pass_1": 0.19,
+   "pass_1": 0.195,
    "pass_1_ic95": [
-    0.14167093792456506,
-    0.250013585744794
+    0.14605441564505764,
+    0.25544164796511815
    ],
-   "fidelidade_media_das_validas": 0.8383085441228659,
+   "fidelidade_media_das_validas": 0.8415423732404086,
    "status": {
     "erro_compilacao": 143,
-    "ok": 49,
-    "erro_sintaxe": 6,
+    "ok": 50,
+    "erro_sintaxe": 5,
     "erro_execucao": 2
    }
   },
@@ -105,21 +105,21 @@
   "teste_estilo/hea": {
    "n": 100,
    "falhas_ambiente": 0,
-   "saida_valida": 0.2,
+   "saida_valida": 0.21,
    "saida_valida_ic95": [
-    0.1333659225590988,
-    0.28883096192650237
+    0.14165549531645788,
+    0.2998014930196232
    ],
-   "pass_1": 0.18,
+   "pass_1": 0.19,
    "pass_1_ic95": [
-    0.11700131654251038,
-    0.26667536024213084
+    0.1251465399270426,
+    0.27779024070807856
    ],
-   "fidelidade_media_das_validas": 0.9298528740600684,
+   "fidelidade_media_das_validas": 0.9331932133905413,
    "status": {
     "erro_compilacao": 76,
-    "erro_sintaxe": 3,
-    "ok": 20,
+    "ok": 21,
+    "erro_sintaxe": 2,
     "erro_execucao": 1
    }
   },
@@ -218,7 +218,7 @@
    "status": {
     "ok": 173,
     "erro_compilacao": 64,
-    "timeout": 1,
+    "memoria": 1,
     "erro_sintaxe": 1,
     "erro_execucao": 1
    }
@@ -240,7 +240,7 @@
    "status": {
     "ok": 72,
     "erro_compilacao": 47,
-    "timeout": 1
+    "memoria": 1
    }
   },
   "teste_tamanho/ghz": {
@@ -455,7 +455,7 @@
    "n": 7,
    "amostras": [
     {
-     "status": "timeout",
+     "status": "memoria",
      "valido": false,
      "equivalente": false,
      "fidelidade": null
@@ -7917,10 +7917,10 @@
    "n": 2,
    "amostras": [
     {
-     "status": "erro_sintaxe",
-     "valido": false,
-     "equivalente": false,
-     "fidelidade": null
+     "status": "ok",
+     "valido": true,
+     "equivalente": true,
+     "fidelidade": 1.0
     }
    ]
   },
