@@ -67,8 +67,9 @@ Same 640 translations, 349 Katas, verifier and greedy decoding. Held-out idioms 
 | Nemotron 4B, base, 4-shot | 83.1% | **65.5%** | **59.2%** | 23.8% |
 | Qwen2.5-Coder 1.5B, base, 4-shot | 50.3% | 19.0% | 18.3% | 17.8% |
 | Qwen2.5-Coder 1.5B, LoRA | 77.8% | 29.0% | 28.3% | 5.2% |
-| Qwen2.5-Coder 7B, base, zero-shot | 0% | 0% | 0% | **30.9%** |
-| Qwen2.5-Coder 7B, base, 4-shot | 82.8% | 65.0% | 54.2% | 30.9% |
+| Qwen2.5-Coder 7B, base, zero-shot | 0% | 0% | 0% | **32.4%** |
+| Qwen2.5-Coder 7B, base, 4-shot | 82.8% | 65.0% | 54.2% | 32.4% |
+| Qwen2.5-Coder 7B, LoRA | **92.0%** | **78.5%** | **79.2%** | 21.8% |
 
 - **Seeds.** Overall 82.2% ± 1.9 points; unseen style 43.5% ± 5.9. Generalization to new idioms depends on the seed, but the gap to the prompt is larger than the spread.
 - **Second base model.** Qwen2.5-Coder 7B does not know CUDA-Q either (0% zero-shot) and, with the same four examples, ties Nemotron. It knows more Qiskit (30.9% on the Katas). These two runs used 8 concurrent requests, so their greedy outputs are not exactly reproducible.
@@ -83,6 +84,8 @@ Same 640 translations, 349 Katas, verifier and greedy decoding. Held-out idioms 
 - **pass@5** on the 120 held-out-idiom tasks: adapter 28.3% → 37.5%, 4-shot 58.3% → 78.3%.
 - **Fidelity threshold.** At 0.99 or 0.9999 no model changes by more than one task (`eval/limiar.py`).
 - **Circuit-level converter** (`eval/linha_base_circuito.py`): executes the Qiskit input, transpiles the circuit to known gates and maps each instruction. **100% on all 640 tasks**, because every input is a static, executable circuit. The benchmark therefore measures source-level translation; a language model is only needed where execution is not available or not wanted.
+- **Qwen2.5-Coder 7B with LoRA** (batch 1 × 16 accumulation, 36 min, 19 GB on the L4): 92.0% vs 82.8% for its 4-shot prompt, and 78.5% vs 65.0% on the unseen style. Fine-tuning ties the prompt on Nemotron 4B but beats it on both Qwen models; the Katas regression appears in all three (7B: 32.4% → 21.8%).
+- **Converter-hard split** (`generate/converter_hard.py`, `eval/avalia_args.py`): 48 parametric Qiskit functions that must become CUDA-Q kernels with arguments, each verified at three argument settings. Converter 0% (it cannot emit a parametric kernel); Nemotron zero-shot 0%, 4-shot 48%, LoRA 63%, GRPO 71%, **mixed replay 83%**; Qwen 7B 4-shot 73%, LoRA 79%.
 - **Real code (QED-C).** 27 tasks built from the Qiskit kernels of six QED-C benchmarks (`generate/qedc.py`, Apache-2.0 sources in `data/qedc_fonte/`). **No model translates any of them** (4-shot, LoRA, GRPO, mixed replay); the circuit-level converter translates all 27.
 
 Summary in `results/resumo_sementes_grpo.json`; failure categories for every model in `results/taxonomia_erros.json` (`eval/taxonomia.py`).

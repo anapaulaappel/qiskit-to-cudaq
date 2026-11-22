@@ -34,7 +34,7 @@ from collections import Counter
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-MODELOS = ["baseline", "fewshot", "finetuned", "seed1", "seed2", "grpo", "qwen_fewshot", "misto", "replay", "estilos", "funcao"]
+MODELOS = ["baseline", "fewshot", "finetuned", "seed1", "seed2", "grpo", "lora_fs2", "qwen15_lora", "qwen_fewshot", "misto", "replay", "estilos", "funcao"]
 ARQUIVOS = ["teste_tamanho", "teste_estrutura", "teste_estilo"]
 BLOCO = re.compile(r"```(?:python)?\s*\n(.*?)```", re.S)
 PORTAS_CUDAQ = {"x", "y", "z", "h", "s", "t", "rx", "ry", "rz", "r1", "swap", "u3", "exp_pauli",

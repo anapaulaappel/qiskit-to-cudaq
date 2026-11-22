@@ -1,0 +1,884 @@
+{
+ "limiar": 0.999,
+ "geral": {
+  "n": 48,
+  "saida_valida": 0.8541666666666666,
+  "pass_1": 0.7083333333333334,
+  "pass_1_ic95": [
+   0.5682047226383246,
+   0.8175858393813663
+  ],
+  "conjuntos_ok": 0.7638888888888888,
+  "status": {
+   "ok": 41,
+   "erro_sintaxe": 3,
+   "erro_compilacao": 4
+  }
+ },
+ "por_familia": {
+  "bits": {
+   "n": 6,
+   "saida_valida": 1.0,
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.6096569663469354,
+    0.9999999999999999
+   ],
+   "conjuntos_ok": 1.0,
+   "status": {
+    "ok": 6
+   }
+  },
+  "branch": {
+   "n": 6,
+   "saida_valida": 1.0,
+   "pass_1": 0.3333333333333333,
+   "pass_1_ic95": [
+    0.09676933255921683,
+    0.7000116786584712
+   ],
+   "conjuntos_ok": 0.7777777777777778,
+   "status": {
+    "ok": 6
+   }
+  },
+  "ctrl_rot": {
+   "n": 6,
+   "saida_valida": 1.0,
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.6096569663469354,
+    0.9999999999999999
+   ],
+   "conjuntos_ok": 1.0,
+   "status": {
+    "ok": 6
+   }
+  },
+  "ghz_n": {
+   "n": 6,
+   "saida_valida": 0.6666666666666666,
+   "pass_1": 0.6666666666666666,
+   "pass_1_ic95": [
+    0.29998832134152864,
+    0.9032306674407831
+   ],
+   "conjuntos_ok": 0.6666666666666666,
+   "status": {
+    "ok": 4,
+    "erro_sintaxe": 2
+   }
+  },
+  "helpers": {
+   "n": 6,
+   "saida_valida": 0.8333333333333334,
+   "pass_1": 0.3333333333333333,
+   "pass_1_ic95": [
+    0.09676933255921683,
+    0.7000116786584712
+   ],
+   "conjuntos_ok": 0.3333333333333333,
+   "status": {
+    "ok": 5,
+    "erro_compilacao": 1
+   }
+  },
+  "ladder": {
+   "n": 6,
+   "saida_valida": 0.6666666666666666,
+   "pass_1": 0.6666666666666666,
+   "pass_1_ic95": [
+    0.29998832134152864,
+    0.9032306674407831
+   ],
+   "conjuntos_ok": 0.6666666666666666,
+   "status": {
+    "ok": 4,
+    "erro_compilacao": 2
+   }
+  },
+  "layers": {
+   "n": 6,
+   "saida_valida": 1.0,
+   "pass_1": 1.0,
+   "pass_1_ic95": [
+    0.6096569663469354,
+    0.9999999999999999
+   ],
+   "conjuntos_ok": 1.0,
+   "status": {
+    "ok": 6
+   }
+  },
+  "qft_n": {
+   "n": 6,
+   "saida_valida": 0.6666666666666666,
+   "pass_1": 0.6666666666666666,
+   "pass_1_ic95": [
+    0.29998832134152864,
+    0.9032306674407831
+   ],
+   "conjuntos_ok": 0.6666666666666666,
+   "status": {
+    "erro_sintaxe": 1,
+    "ok": 4,
+    "erro_compilacao": 1
+   }
+  }
+ },
+ "por_tarefa": [
+  {
+   "id": "hard_ghz_n_0",
+   "familia": "ghz_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_ghz_n_1",
+   "familia": "ghz_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999984,
+    0.9999999999999971,
+    0.9999999999999964
+   ]
+  },
+  {
+   "id": "hard_ghz_n_2",
+   "familia": "ghz_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_ghz_n_3",
+   "familia": "ghz_n",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ghz_n_4",
+   "familia": "ghz_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_ghz_n_5",
+   "familia": "ghz_n",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_0",
+   "familia": "ladder",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    0.9999999999999998
+   ]
+  },
+  {
+   "id": "hard_ladder_1",
+   "familia": "ladder",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_ladder_2",
+   "familia": "ladder",
+   "status": "erro_compilacao",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_3",
+   "familia": "ladder",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    0.9999999999999998
+   ]
+  },
+  {
+   "id": "hard_ladder_4",
+   "familia": "ladder",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    0.9999999999999998
+   ]
+  },
+  {
+   "id": "hard_ladder_5",
+   "familia": "ladder",
+   "status": "erro_compilacao",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_layers_0",
+   "familia": "layers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    0.9999999999999993,
+    0.9999999999999998
+   ]
+  },
+  {
+   "id": "hard_layers_1",
+   "familia": "layers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0000000000000004,
+    0.9999999999999998,
+    1.0000000000000004
+   ]
+  },
+  {
+   "id": "hard_layers_2",
+   "familia": "layers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0000000000000004,
+    1.0000000000000004,
+    1.0000000000000009
+   ]
+  },
+  {
+   "id": "hard_layers_3",
+   "familia": "layers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999998,
+    1.0000000000000009
+   ]
+  },
+  {
+   "id": "hard_layers_4",
+   "familia": "layers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999998,
+    0.9999999999999993,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_layers_5",
+   "familia": "layers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999998,
+    1.0000000000000004,
+    0.9999999999999982
+   ]
+  },
+  {
+   "id": "hard_qft_n_0",
+   "familia": "qft_n",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_1",
+   "familia": "qft_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999991,
+    0.9999999999999991,
+    0.9999999999999984
+   ]
+  },
+  {
+   "id": "hard_qft_n_2",
+   "familia": "qft_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999991,
+    0.9999999999999991,
+    0.9999999999999984
+   ]
+  },
+  {
+   "id": "hard_qft_n_3",
+   "familia": "qft_n",
+   "status": "erro_compilacao",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_4",
+   "familia": "qft_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999991,
+    0.9999999999999991,
+    0.999999999999998
+   ]
+  },
+  {
+   "id": "hard_qft_n_5",
+   "familia": "qft_n",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999991,
+    0.9999999999999991,
+    0.9999999999999982
+   ]
+  },
+  {
+   "id": "hard_branch_0",
+   "familia": "branch",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    0.9999999999999996,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_branch_1",
+   "familia": "branch",
+   "status": "ok",
+   "valido": true,
+   "equivalente": false,
+   "por_conjunto": [
+    true,
+    false,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    0.2499999999999999,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_branch_2",
+   "familia": "branch",
+   "status": "ok",
+   "valido": true,
+   "equivalente": false,
+   "por_conjunto": [
+    true,
+    false,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    0.2499999999999999,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_branch_3",
+   "familia": "branch",
+   "status": "ok",
+   "valido": true,
+   "equivalente": false,
+   "por_conjunto": [
+    true,
+    false,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    0.2499999999999999,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_branch_4",
+   "familia": "branch",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    0.9999999999999996,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_branch_5",
+   "familia": "branch",
+   "status": "ok",
+   "valido": true,
+   "equivalente": false,
+   "por_conjunto": [
+    true,
+    false,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    0.2499999999999999,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_bits_0",
+   "familia": "bits",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_bits_1",
+   "familia": "bits",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_bits_2",
+   "familia": "bits",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_bits_3",
+   "familia": "bits",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_bits_4",
+   "familia": "bits",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_bits_5",
+   "familia": "bits",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "id": "hard_ctrl_rot_0",
+   "familia": "ctrl_rot",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999998,
+    0.9999999999999993
+   ]
+  },
+  {
+   "id": "hard_ctrl_rot_1",
+   "familia": "ctrl_rot",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999998,
+    0.9999999999999996,
+    0.9999999999999993
+   ]
+  },
+  {
+   "id": "hard_ctrl_rot_2",
+   "familia": "ctrl_rot",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999998
+   ]
+  },
+  {
+   "id": "hard_ctrl_rot_3",
+   "familia": "ctrl_rot",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_ctrl_rot_4",
+   "familia": "ctrl_rot",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999993,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_ctrl_rot_5",
+   "familia": "ctrl_rot",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    0.9999999999999996,
+    0.9999999999999996
+   ]
+  },
+  {
+   "id": "hard_helpers_0",
+   "familia": "helpers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": false,
+   "por_conjunto": [
+    false,
+    false,
+    false
+   ],
+   "fidelidades": [
+    0.8802622928438637,
+    0.09039834969711597,
+    0.029450814808809744
+   ]
+  },
+  {
+   "id": "hard_helpers_1",
+   "familia": "helpers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": false,
+   "por_conjunto": [
+    false,
+    false,
+    false
+   ],
+   "fidelidades": [
+    0.7767409281794002,
+    0.011627798715726959,
+    0.08230841514652573
+   ]
+  },
+  {
+   "id": "hard_helpers_2",
+   "familia": "helpers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    1.0000000000000009,
+    1.0000000000000018
+   ]
+  },
+  {
+   "id": "hard_helpers_3",
+   "familia": "helpers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": false,
+   "por_conjunto": [
+    false,
+    false,
+    false
+   ],
+   "fidelidades": [
+    0.9711562624403766,
+    0.03619532985448111,
+    0.042644486038111946
+   ]
+  },
+  {
+   "id": "hard_helpers_4",
+   "familia": "helpers",
+   "status": "erro_compilacao",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_helpers_5",
+   "familia": "helpers",
+   "status": "ok",
+   "valido": true,
+   "equivalente": true,
+   "por_conjunto": [
+    true,
+    true,
+    true
+   ],
+   "fidelidades": [
+    0.9999999999999996,
+    1.0000000000000009,
+    1.0000000000000018
+   ]
+  }
+ ]
+}

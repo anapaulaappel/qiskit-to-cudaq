@@ -245,6 +245,82 @@
    "sintaxe": "estilo_a9c61bb189a94b46"
   }
  },
+ "lora_fs2": {
+  "falhas": 138,
+  "categorias": {
+   "idioma_qiskit": 36,
+   "porta_inventada": 30,
+   "porta_faltando": 29,
+   "porta_sobrando": 15,
+   "classe_qiskit": 14,
+   "sintaxe": 7,
+   "outro_estado": 2,
+   "truncada": 2,
+   "outro_compilacao": 1,
+   "api_qiskit": 1,
+   "nome_porta_qiskit": 1
+  },
+  "por_divisao": {
+   "teste_tamanho": {
+    "porta_sobrando": 8
+   },
+   "teste_estrutura": {
+    "porta_faltando": 23
+   },
+   "teste_estilo": {
+    "idioma_qiskit": 36,
+    "porta_inventada": 30,
+    "classe_qiskit": 14,
+    "sintaxe": 7,
+    "porta_sobrando": 7,
+    "porta_faltando": 6,
+    "outro_estado": 2,
+    "truncada": 2,
+    "outro_compilacao": 1,
+    "api_qiskit": 1,
+    "nome_porta_qiskit": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "porta_sobrando": "973289740726f8cc",
+   "porta_faltando": "be30e1fb4bc89c17",
+   "idioma_qiskit": "estilo_b401a5f374681738",
+   "porta_inventada": "estilo_e2046a377195b767",
+   "sintaxe": "estilo_b5e09bd913fa3100",
+   "outro_compilacao": "estilo_7d10857dfea4a837",
+   "outro_estado": "estilo_fc6324d10531d305",
+   "api_qiskit": "estilo_53df527264e65b80",
+   "nome_porta_qiskit": "estilo_a73ba240ef56aad1",
+   "classe_qiskit": "estilo_0ed2c32399883862",
+   "truncada": "estilo_3f2f51e1f0d41bfd"
+  }
+ },
+ "qwen15_lora": {
+  "falhas": 142,
+  "categorias": {
+   "idioma_qiskit": 110,
+   "outro_compilacao": 22,
+   "porta_inventada": 6,
+   "porta_sobrando": 3,
+   "truncada": 1
+  },
+  "por_divisao": {
+   "teste_estilo": {
+    "idioma_qiskit": 110,
+    "outro_compilacao": 22,
+    "porta_inventada": 6,
+    "porta_sobrando": 3,
+    "truncada": 1
+   }
+  },
+  "exemplo_por_categoria": {
+   "idioma_qiskit": "estilo_b401a5f374681738",
+   "outro_compilacao": "estilo_53df527264e65b80",
+   "porta_inventada": "estilo_694c8e961080024a",
+   "porta_sobrando": "estilo_4c4e5aa3d6261e8d",
+   "truncada": "estilo_a289bf40f1067d13"
+  }
+ },
  "qwen_fewshot": {
   "falhas": 110,
   "categorias": {

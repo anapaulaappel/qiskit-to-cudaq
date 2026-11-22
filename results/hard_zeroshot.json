@@ -1,0 +1,513 @@
+{
+ "limiar": 0.999,
+ "geral": {
+  "n": 48,
+  "saida_valida": 0.0,
+  "pass_1": 0.0,
+  "pass_1_ic95": [
+   0.0,
+   0.0741026511527422
+  ],
+  "conjuntos_ok": 0.0,
+  "status": {
+   "sem_kernel": 38,
+   "erro_sintaxe": 10
+  }
+ },
+ "por_familia": {
+  "bits": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "sem_kernel": 5,
+    "erro_sintaxe": 1
+   }
+  },
+  "branch": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "sem_kernel": 5,
+    "erro_sintaxe": 1
+   }
+  },
+  "ctrl_rot": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "sem_kernel": 6
+   }
+  },
+  "ghz_n": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "sem_kernel": 5,
+    "erro_sintaxe": 1
+   }
+  },
+  "helpers": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "erro_sintaxe": 6
+   }
+  },
+  "ladder": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "sem_kernel": 6
+   }
+  },
+  "layers": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "sem_kernel": 6
+   }
+  },
+  "qft_n": {
+   "n": 6,
+   "saida_valida": 0.0,
+   "pass_1": 0.0,
+   "pass_1_ic95": [
+    0.0,
+    0.3903430336530645
+   ],
+   "conjuntos_ok": 0.0,
+   "status": {
+    "sem_kernel": 5,
+    "erro_sintaxe": 1
+   }
+  }
+ },
+ "por_tarefa": [
+  {
+   "id": "hard_ghz_n_0",
+   "familia": "ghz_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ghz_n_1",
+   "familia": "ghz_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ghz_n_2",
+   "familia": "ghz_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ghz_n_3",
+   "familia": "ghz_n",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ghz_n_4",
+   "familia": "ghz_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ghz_n_5",
+   "familia": "ghz_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_0",
+   "familia": "ladder",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_1",
+   "familia": "ladder",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_2",
+   "familia": "ladder",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_3",
+   "familia": "ladder",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_4",
+   "familia": "ladder",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ladder_5",
+   "familia": "ladder",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_layers_0",
+   "familia": "layers",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_layers_1",
+   "familia": "layers",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_layers_2",
+   "familia": "layers",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_layers_3",
+   "familia": "layers",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_layers_4",
+   "familia": "layers",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_layers_5",
+   "familia": "layers",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_0",
+   "familia": "qft_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_1",
+   "familia": "qft_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_2",
+   "familia": "qft_n",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_3",
+   "familia": "qft_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_4",
+   "familia": "qft_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_qft_n_5",
+   "familia": "qft_n",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_branch_0",
+   "familia": "branch",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_branch_1",
+   "familia": "branch",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_branch_2",
+   "familia": "branch",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_branch_3",
+   "familia": "branch",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_branch_4",
+   "familia": "branch",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_branch_5",
+   "familia": "branch",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_bits_0",
+   "familia": "bits",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_bits_1",
+   "familia": "bits",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_bits_2",
+   "familia": "bits",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_bits_3",
+   "familia": "bits",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_bits_4",
+   "familia": "bits",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_bits_5",
+   "familia": "bits",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ctrl_rot_0",
+   "familia": "ctrl_rot",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ctrl_rot_1",
+   "familia": "ctrl_rot",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ctrl_rot_2",
+   "familia": "ctrl_rot",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ctrl_rot_3",
+   "familia": "ctrl_rot",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ctrl_rot_4",
+   "familia": "ctrl_rot",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_ctrl_rot_5",
+   "familia": "ctrl_rot",
+   "status": "sem_kernel",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_helpers_0",
+   "familia": "helpers",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_helpers_1",
+   "familia": "helpers",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_helpers_2",
+   "familia": "helpers",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_helpers_3",
+   "familia": "helpers",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_helpers_4",
+   "familia": "helpers",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  },
+  {
+   "id": "hard_helpers_5",
+   "familia": "helpers",
+   "status": "erro_sintaxe",
+   "valido": false,
+   "equivalente": false,
+   "por_conjunto": []
+  }
+ ]
+}

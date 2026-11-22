@@ -1,0 +1,86 @@
+{
+ "data": "2026-11-22",
+ "converter_hard": {
+  "tarefas": 48,
+  "conjuntos_de_argumentos_por_tarefa": 3,
+  "resultados": {
+   "hard_conversor": {
+    "saida_valida": 0.0,
+    "pass_1": 0.0
+   },
+   "hard_referencia": {
+    "saida_valida": 100.0,
+    "pass_1": 100.0
+   },
+   "hard_zeroshot": {
+    "saida_valida": 0.0,
+    "pass_1": 0.0
+   },
+   "hard_fewshot": {
+    "saida_valida": 52.1,
+    "pass_1": 47.9
+   },
+   "hard_lora": {
+    "saida_valida": 72.9,
+    "pass_1": 62.5
+   },
+   "hard_grpo": {
+    "saida_valida": 85.4,
+    "pass_1": 70.8
+   },
+   "hard_misto": {
+    "saida_valida": 91.7,
+    "pass_1": 83.3
+   },
+   "hard_qwen7_fewshot": {
+    "saida_valida": 89.6,
+    "pass_1": 72.9
+   },
+   "hard_qwen7_lora": {
+    "saida_valida": 85.4,
+    "pass_1": 79.2
+   }
+  }
+ },
+ "qwen7": {
+  "fewshot_4_c1": {
+   "total": 82.8,
+   "estilo": 65.0,
+   "reservados": 54.2
+  },
+  "lora": {
+   "total": 92.0,
+   "tamanho": 100.0,
+   "estrutura": 96.0,
+   "estilo": 78.5,
+   "reservados": 79.2
+  },
+  "katas": {
+   "base": 32.4,
+   "lora": 21.8
+  },
+  "mcnemar": {
+   "lora_vs_4shot_todas": [
+    83,
+    24,
+    "p<1e-8"
+   ],
+   "estilo": [
+    43,
+    16,
+    "p=6e-4"
+   ],
+   "katas": [
+    10,
+    47,
+    "p=8e-7"
+   ]
+  },
+  "treino": {
+   "minutos": 36.0,
+   "memoria_gb": 19.2,
+   "lote": "1 x acumulação 16"
+  }
+ },
+ "taxonomia": "results/taxonomia_erros.json (inclui grpo, lora_fs2, qwen15_lora, misto)"
+}

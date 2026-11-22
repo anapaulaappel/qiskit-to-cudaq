@@ -41,6 +41,8 @@ def main():
     ap.add_argument("--saida", default=str(RAIZ / "runs" / "lora"))
     ap.add_argument("--max-steps", type=int, default=-1, help="só para ensaio; -1 = épocas do config")
     ap.add_argument("--dados", default="sft_treino.jsonl", help="sft_treino_replay.jsonl no experimento de replay")
+    ap.add_argument("--lote", type=int, default=None,
+                    help="lote por GPU; a acumulação é ajustada para manter o lote efetivo 16 (ex.: 1 no Qwen 7B)")
     ap.add_argument("--semente", type=int, default=None,
                     help="semente de treino e de ordem dos dados (padrão: config.SEMENTE); para medir variância")
     a = ap.parse_args()
@@ -57,6 +59,9 @@ def main():
         ajustes = dict(max_steps=a.max_steps, eval_steps=2, save_steps=2, logging_steps=1)
     if a.semente is not None:
         ajustes.update(seed=a.semente, data_seed=a.semente)
+    if a.lote:
+        ajustes.update(per_device_train_batch_size=a.lote, per_device_eval_batch_size=a.lote,
+                       gradient_accumulation_steps=16 // a.lote)
     args = config.sft(a.saida, **ajustes)
     tr = SFTTrainer(model=model, args=args, processing_class=tok, peft_config=config.lora(),
                     train_dataset=carrega_dados(a.dados),
