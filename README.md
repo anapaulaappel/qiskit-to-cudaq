@@ -2,6 +2,8 @@
 
 **Fine-tuning an open model to translate Qiskit circuits into CUDA-Q kernels, measured by executing both programs and comparing quantum states.**
 
+Paper: **[When Does Fine-Tuning Beat Prompting for Qiskit-to-CUDA-Q Translation? An Execution-Verified Study](https://arxiv.org/abs/2611.29793)** (arXiv:2611.29793).
+
 I fine-tuned [NVIDIA Nemotron 3 Nano 4B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16) with LoRA on a single NVIDIA L4 GPU. Evaluation does not compare text and does not use an LLM as a judge. Every generated kernel runs in an isolated process, and it counts as correct only if it prepares the same quantum state as the Qiskit reference (state fidelity ≥ 0.999).
 
 Most of the work went into making the measurement trustworthy before training anything. The evaluator was itself tested, and a rule-based baseline showed that two of the three original test sets did not need a model at all.
@@ -230,6 +232,20 @@ results/    all numbers reported here (and resumo.svg, from eval/grafico_resumo.
 ```
 
 Kept for the record but not used for the reported numbers: `modal_setup.py` and `eval/gerar_modal.py` (the original Modal plan), and `eval/gerar.py` and `eval/confere_cache.py` (Hugging Face `generate` path, which documents the broken cache described above).
+
+## Citation
+
+```bibtex
+@misc{appel2026qiskit2cudaq,
+  title         = {When Does Fine-Tuning Beat Prompting for {Qiskit}-to-{CUDA-Q} Translation? An Execution-Verified Study},
+  author        = {Appel, Ana Paula},
+  year          = {2026},
+  eprint        = {2611.29793},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  url           = {https://arxiv.org/abs/2611.29793}
+}
+```
 
 ## License
 
